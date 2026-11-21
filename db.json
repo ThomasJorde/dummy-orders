@@ -1,0 +1,4640 @@
+{
+  "orders": [
+    {
+      "id": 3369,
+      "order_id": 3369,
+      "order_number": "#3369",
+      "status": "Behandles",
+      "order_date": "2026-11-21T08:13:00Z",
+      "last_updated": "2026-11-21T08:15:00Z",
+      "customer": {
+        "customer_id": "TEST-79978",
+        "first_name": "Ola",
+        "last_name": "Nordmann",
+        "email": "ola.nordmann15@example.com",
+        "phone": "+47 400 00 780",
+        "loyalty_member": true,
+        "car": "Eksempel SUV EV"
+      },
+      "shipping_address": {
+        "name": "Ola Nordmann",
+        "street": "Testveien 32",
+        "postal_code": "5003",
+        "city": "Bergen",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1003",
+          "name": "Vaskehanske mikrofiber",
+          "category": "Vask",
+          "quantity": 1,
+          "unit_price": 129.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 129.0,
+        "discount_code": null,
+        "discount_amount": 0.0,
+        "shipping_cost": 0.0,
+        "vat_rate": 0.25,
+        "vat_included": 25.8,
+        "total": 129.0
+      },
+      "payment": {
+        "method": "Kort (Visa)",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Henting i butikk",
+        "carrier": null,
+        "tracking_number": null,
+        "tracking_url": null,
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": null,
+        "estimated_delivery": "2026-11-23",
+        "delivered_date": null
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": true,
+      "can_change_address": true,
+      "return_eligible": false,
+      "return_deadline": null,
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-11-21T08:13:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-11-21T08:15:00Z"
+        }
+      ],
+      "customer_notes": null
+    },
+    {
+      "id": 7125,
+      "order_id": 7125,
+      "order_number": "#7125",
+      "status": "Behandles",
+      "order_date": "2026-11-21T04:11:00Z",
+      "last_updated": "2026-11-21T04:13:00Z",
+      "customer": {
+        "customer_id": "TEST-72057",
+        "first_name": "Demo",
+        "last_name": "Kunde",
+        "email": "demo.kunde22@example.com",
+        "phone": "+47 400 00 300",
+        "loyalty_member": true,
+        "car": "Eksempel SUV EV"
+      },
+      "shipping_address": {
+        "name": "Demo Kunde",
+        "street": "Eksempelgata 42",
+        "postal_code": "5003",
+        "city": "Bergen",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1027",
+          "name": "Startpakke bilvask (6 produkter)",
+          "category": "Pakker",
+          "quantity": 1,
+          "unit_price": 899.0
+        },
+        {
+          "sku": "BP-1026",
+          "name": "Gavekort bilvask Premium",
+          "category": "Gavekort",
+          "quantity": 1,
+          "unit_price": 599.0
+        },
+        {
+          "sku": "BP-1014",
+          "name": "Keramisk coating-sett 30 ml",
+          "category": "Beskyttelse",
+          "quantity": 1,
+          "unit_price": 1290.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 2788.0,
+        "discount_code": "VASK20",
+        "discount_amount": 557.6,
+        "shipping_cost": 0.0,
+        "vat_rate": 0.25,
+        "vat_included": 446.08,
+        "total": 2230.4
+      },
+      "payment": {
+        "method": "Kort (Mastercard)",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Hentested",
+        "carrier": null,
+        "tracking_number": null,
+        "tracking_url": null,
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": null,
+        "estimated_delivery": "2026-11-26",
+        "delivered_date": null
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": true,
+      "can_change_address": true,
+      "return_eligible": false,
+      "return_deadline": null,
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-11-21T04:11:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-11-21T04:13:00Z"
+        }
+      ],
+      "customer_notes": "Gave – ikke legg ved kvittering"
+    },
+    {
+      "id": 6112,
+      "order_id": 6112,
+      "order_number": "#6112",
+      "status": "Sendt",
+      "order_date": "2026-11-20T07:51:00Z",
+      "last_updated": "2026-11-20T13:51:00Z",
+      "customer": {
+        "customer_id": "TEST-15183",
+        "first_name": "Ola",
+        "last_name": "Demosen",
+        "email": "ola.demosen5@example.com",
+        "phone": "+47 400 00 101",
+        "loyalty_member": false,
+        "car": "Testbil Model S"
+      },
+      "shipping_address": {
+        "name": "Ola Demosen",
+        "street": "Fiktivveien 5",
+        "postal_code": "3015",
+        "city": "Drammen",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1027",
+          "name": "Startpakke bilvask (6 produkter)",
+          "category": "Pakker",
+          "quantity": 2,
+          "unit_price": 899.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 1798.0,
+        "discount_code": null,
+        "discount_amount": 0.0,
+        "shipping_cost": 199.0,
+        "vat_rate": 0.25,
+        "vat_included": 399.4,
+        "total": 1997.0
+      },
+      "payment": {
+        "method": "Kort (Mastercard)",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Ekspress",
+        "carrier": "Porterbuddy",
+        "tracking_number": "7997345907452391",
+        "tracking_url": "https://porterbuddy.com/track/7997345907452391",
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": "2026-11-20T13:51:00Z",
+        "estimated_delivery": "2026-11-22",
+        "delivered_date": null
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": false,
+      "return_deadline": null,
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-11-20T07:51:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-11-20T07:53:00Z"
+        },
+        {
+          "status": "Sendt",
+          "timestamp": "2026-11-20T13:51:00Z"
+        }
+      ],
+      "customer_notes": null
+    },
+    {
+      "id": 9707,
+      "order_id": 9707,
+      "order_number": "#9707",
+      "status": "Sendt",
+      "order_date": "2026-11-20T06:14:00Z",
+      "last_updated": "2026-11-20T12:14:00Z",
+      "customer": {
+        "customer_id": "TEST-99613",
+        "first_name": "Lise",
+        "last_name": "Kunde",
+        "email": "lise.kunde34@example.com",
+        "phone": "+47 400 00 394",
+        "loyalty_member": false,
+        "car": "Fiktiv Sedan"
+      },
+      "shipping_address": {
+        "name": "Lise Kunde",
+        "street": "Dummygata 83",
+        "postal_code": "0150",
+        "city": "Oslo",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1008",
+          "name": "Dekkglans 500 ml",
+          "category": "Felg og dekk",
+          "quantity": 2,
+          "unit_price": 169.0
+        },
+        {
+          "sku": "BP-1024",
+          "name": "Spylervæske vinter -25 °C 4 L",
+          "category": "Sesong",
+          "quantity": 2,
+          "unit_price": 119.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 576.0,
+        "discount_code": "VASK10",
+        "discount_amount": 57.6,
+        "shipping_cost": 199.0,
+        "vat_rate": 0.25,
+        "vat_included": 143.48,
+        "total": 717.4
+      },
+      "payment": {
+        "method": "Kort (Visa)",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Ekspress",
+        "carrier": "Porterbuddy",
+        "tracking_number": "5314539791563135",
+        "tracking_url": "https://porterbuddy.com/track/5314539791563135",
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": "2026-11-20T12:14:00Z",
+        "estimated_delivery": "2026-11-22",
+        "delivered_date": null
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": false,
+      "return_deadline": null,
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-11-20T06:14:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-11-20T06:16:00Z"
+        },
+        {
+          "status": "Sendt",
+          "timestamp": "2026-11-20T12:14:00Z"
+        }
+      ],
+      "customer_notes": null
+    },
+    {
+      "id": 2834,
+      "order_id": 2834,
+      "order_number": "#2834",
+      "status": "Behandles",
+      "order_date": "2026-11-20T03:44:00Z",
+      "last_updated": "2026-11-20T03:46:00Z",
+      "customer": {
+        "customer_id": "TEST-16344",
+        "first_name": "Ola",
+        "last_name": "Nordmann",
+        "email": "ola.nordmann97@example.com",
+        "phone": "+47 400 00 832",
+        "loyalty_member": false,
+        "car": "Demo Kombi 2.0"
+      },
+      "shipping_address": {
+        "name": "Ola Nordmann",
+        "street": "Fiktivveien 65",
+        "postal_code": "2317",
+        "city": "Hamar",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1012",
+          "name": "Insektfjerner 500 ml",
+          "category": "Rens",
+          "quantity": 1,
+          "unit_price": 149.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 149.0,
+        "discount_code": null,
+        "discount_amount": 0.0,
+        "shipping_cost": 59.0,
+        "vat_rate": 0.25,
+        "vat_included": 41.6,
+        "total": 208.0
+      },
+      "payment": {
+        "method": "Klarna faktura",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Hentested",
+        "carrier": null,
+        "tracking_number": null,
+        "tracking_url": null,
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": null,
+        "estimated_delivery": "2026-11-25",
+        "delivered_date": null
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": true,
+      "can_change_address": true,
+      "return_eligible": false,
+      "return_deadline": null,
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-11-20T03:44:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-11-20T03:46:00Z"
+        }
+      ],
+      "customer_notes": "Leveres til nabo ved fravær"
+    },
+    {
+      "id": 9586,
+      "order_id": 9586,
+      "order_number": "#9586",
+      "status": "Kansellert",
+      "order_date": "2026-11-20T02:17:00Z",
+      "last_updated": "2026-11-20T03:17:00Z",
+      "customer": {
+        "customer_id": "TEST-52539",
+        "first_name": "Test",
+        "last_name": "Dummysen",
+        "email": "test.dummysen17@example.com",
+        "phone": "+47 400 00 868",
+        "loyalty_member": true,
+        "car": "Eksempel SUV EV"
+      },
+      "shipping_address": {
+        "name": "Test Dummysen",
+        "street": "Testveien 26",
+        "postal_code": "6002",
+        "city": "Ålesund",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1013",
+          "name": "Hardvoks carnauba 200 g",
+          "category": "Beskyttelse",
+          "quantity": 2,
+          "unit_price": 399.0
+        },
+        {
+          "sku": "BP-1010",
+          "name": "Avfettingsmiddel / tjærefjerner 1 L",
+          "category": "Rens",
+          "quantity": 1,
+          "unit_price": 199.0
+        },
+        {
+          "sku": "BP-1024",
+          "name": "Spylervæske vinter -25 °C 4 L",
+          "category": "Sesong",
+          "quantity": 2,
+          "unit_price": 119.0
+        },
+        {
+          "sku": "BP-1005",
+          "name": "Skumkanon for høytrykksspyler",
+          "category": "Utstyr",
+          "quantity": 1,
+          "unit_price": 499.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 1734.0,
+        "discount_code": null,
+        "discount_amount": 0.0,
+        "shipping_cost": 0.0,
+        "vat_rate": 0.25,
+        "vat_included": 346.8,
+        "total": 1734.0
+      },
+      "payment": {
+        "method": "Vipps",
+        "status": "Feilet"
+      },
+      "shipping": {
+        "method": "Henting i butikk",
+        "carrier": null,
+        "tracking_number": null,
+        "tracking_url": null,
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": null,
+        "estimated_delivery": null,
+        "delivered_date": null
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": "Betaling feilet",
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": false,
+      "return_deadline": null,
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-11-20T02:17:00Z"
+        },
+        {
+          "status": "Kansellert",
+          "timestamp": "2026-11-20T03:17:00Z"
+        }
+      ],
+      "customer_notes": "Gave – ikke legg ved kvittering"
+    },
+    {
+      "id": 6311,
+      "order_id": 6311,
+      "order_number": "#6311",
+      "status": "Behandles",
+      "order_date": "2026-11-20T01:32:00Z",
+      "last_updated": "2026-11-20T01:34:00Z",
+      "customer": {
+        "customer_id": "TEST-68565",
+        "first_name": "Kari",
+        "last_name": "Testmann",
+        "email": "kari.testmann77@example.com",
+        "phone": "+47 400 00 881",
+        "loyalty_member": false,
+        "car": "Eksempel SUV EV"
+      },
+      "shipping_address": {
+        "name": "Kari Testmann",
+        "street": "Eksempelgata 61",
+        "postal_code": "1606",
+        "city": "Fredrikstad",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1001",
+          "name": "Bilshampo pH-nøytral 1 L",
+          "category": "Vask",
+          "quantity": 2,
+          "unit_price": 189.0
+        },
+        {
+          "sku": "BP-1020",
+          "name": "Skinnrens og -pleie 2-i-1",
+          "category": "Interiør",
+          "quantity": 2,
+          "unit_price": 249.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 876.0,
+        "discount_code": null,
+        "discount_amount": 0.0,
+        "shipping_cost": 0.0,
+        "vat_rate": 0.25,
+        "vat_included": 175.2,
+        "total": 876.0
+      },
+      "payment": {
+        "method": "Klarna faktura",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Henting i butikk",
+        "carrier": null,
+        "tracking_number": null,
+        "tracking_url": null,
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": null,
+        "estimated_delivery": "2026-11-22",
+        "delivered_date": null
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": true,
+      "can_change_address": true,
+      "return_eligible": false,
+      "return_deadline": null,
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-11-20T01:32:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-11-20T01:34:00Z"
+        }
+      ],
+      "customer_notes": null
+    },
+    {
+      "id": 7440,
+      "order_id": 7440,
+      "order_number": "#7440",
+      "status": "Behandles",
+      "order_date": "2026-11-19T22:04:00Z",
+      "last_updated": "2026-11-19T22:06:00Z",
+      "customer": {
+        "customer_id": "TEST-41747",
+        "first_name": "Ole",
+        "last_name": "Prøvesen",
+        "email": "ole.provesen89@example.com",
+        "phone": "+47 400 00 809",
+        "loyalty_member": true,
+        "car": "Eksempel SUV EV"
+      },
+      "shipping_address": {
+        "name": "Ole Prøvesen",
+        "street": "Eksempelgata 21",
+        "postal_code": "4006",
+        "city": "Stavanger",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1014",
+          "name": "Keramisk coating-sett 30 ml",
+          "category": "Beskyttelse",
+          "quantity": 1,
+          "unit_price": 1290.0
+        },
+        {
+          "sku": "BP-1006",
+          "name": "Tørkehåndkle XL 90x60 cm",
+          "category": "Tørk",
+          "quantity": 2,
+          "unit_price": 279.0
+        },
+        {
+          "sku": "BP-1002",
+          "name": "Snøskum / forvask 1 L",
+          "category": "Vask",
+          "quantity": 1,
+          "unit_price": 229.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 2077.0,
+        "discount_code": "VASK15",
+        "discount_amount": 311.55,
+        "shipping_cost": 0.0,
+        "vat_rate": 0.25,
+        "vat_included": 353.09,
+        "total": 1765.45
+      },
+      "payment": {
+        "method": "Kort (Mastercard)",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Pakke i postkassen",
+        "carrier": null,
+        "tracking_number": null,
+        "tracking_url": null,
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": null,
+        "estimated_delivery": "2026-11-23",
+        "delivered_date": null
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": true,
+      "can_change_address": true,
+      "return_eligible": false,
+      "return_deadline": null,
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-11-19T22:04:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-11-19T22:06:00Z"
+        }
+      ],
+      "customer_notes": "Kan leveres på trappa"
+    },
+    {
+      "id": 5290,
+      "order_id": 5290,
+      "order_number": "#5290",
+      "status": "Sendt",
+      "order_date": "2026-11-19T10:00:00Z",
+      "last_updated": "2026-11-19T16:00:00Z",
+      "customer": {
+        "customer_id": "TEST-68596",
+        "first_name": "Ola",
+        "last_name": "Demosen",
+        "email": "ola.demosen26@example.com",
+        "phone": "+47 400 00 208",
+        "loyalty_member": false,
+        "car": "Eksempel SUV EV"
+      },
+      "shipping_address": {
+        "name": "Ola Demosen",
+        "street": "Dummygata 64",
+        "postal_code": "4610",
+        "city": "Kristiansand",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1024",
+          "name": "Spylervæske vinter -25 °C 4 L",
+          "category": "Sesong",
+          "quantity": 1,
+          "unit_price": 119.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 119.0,
+        "discount_code": "VASK15",
+        "discount_amount": 17.85,
+        "shipping_cost": 129.0,
+        "vat_rate": 0.25,
+        "vat_included": 46.03,
+        "total": 230.15
+      },
+      "payment": {
+        "method": "Klarna delbetaling",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Hjemlevering",
+        "carrier": "PostNord",
+        "tracking_number": "9418514912467546",
+        "tracking_url": "https://www.postnord.no/sporing?id=9418514912467546",
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": "2026-11-19T16:00:00Z",
+        "estimated_delivery": "2026-11-22",
+        "delivered_date": null
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": false,
+      "return_deadline": null,
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-11-19T10:00:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-11-19T10:02:00Z"
+        },
+        {
+          "status": "Sendt",
+          "timestamp": "2026-11-19T16:00:00Z"
+        }
+      ],
+      "customer_notes": "Leveres til nabo ved fravær"
+    },
+    {
+      "id": 2319,
+      "order_id": 2319,
+      "order_number": "#2319",
+      "status": "Sendt",
+      "order_date": "2026-11-19T08:02:00Z",
+      "last_updated": "2026-11-20T14:02:00Z",
+      "customer": {
+        "customer_id": "TEST-61883",
+        "first_name": "Lise",
+        "last_name": "Testesen",
+        "email": "lise.testesen30@example.com",
+        "phone": "+47 400 00 574",
+        "loyalty_member": false,
+        "car": null
+      },
+      "shipping_address": {
+        "name": "Lise Testesen",
+        "street": "Dummygata 21",
+        "postal_code": "1606",
+        "city": "Fredrikstad",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1026",
+          "name": "Gavekort bilvask Premium",
+          "category": "Gavekort",
+          "quantity": 1,
+          "unit_price": 599.0
+        },
+        {
+          "sku": "BP-1023",
+          "name": "Mikrofiberkluter (10-pk)",
+          "category": "Tilbehør",
+          "quantity": 2,
+          "unit_price": 199.0
+        },
+        {
+          "sku": "BP-1025",
+          "name": "Isskrape med snøbørste",
+          "category": "Sesong",
+          "quantity": 1,
+          "unit_price": 159.0
+        },
+        {
+          "sku": "BP-1007",
+          "name": "Felgrens syrefri 750 ml",
+          "category": "Felg og dekk",
+          "quantity": 2,
+          "unit_price": 219.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 1594.0,
+        "discount_code": "VASK20",
+        "discount_amount": 318.8,
+        "shipping_cost": 0.0,
+        "vat_rate": 0.25,
+        "vat_included": 255.04,
+        "total": 1275.2
+      },
+      "payment": {
+        "method": "Kort (Visa)",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Pakke i postkassen",
+        "carrier": "PostNord",
+        "tracking_number": "8213174607920387",
+        "tracking_url": "https://www.postnord.no/sporing?id=8213174607920387",
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": "2026-11-20T14:02:00Z",
+        "estimated_delivery": "2026-11-23",
+        "delivered_date": null
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": false,
+      "return_deadline": null,
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-11-19T08:02:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-11-19T08:04:00Z"
+        },
+        {
+          "status": "Sendt",
+          "timestamp": "2026-11-20T14:02:00Z"
+        }
+      ],
+      "customer_notes": null
+    },
+    {
+      "id": 4407,
+      "order_id": 4407,
+      "order_number": "#4407",
+      "status": "Sendt",
+      "order_date": "2026-11-19T05:55:00Z",
+      "last_updated": "2026-11-19T11:55:00Z",
+      "customer": {
+        "customer_id": "TEST-13027",
+        "first_name": "Anne",
+        "last_name": "Testmann",
+        "email": "anne.testmann20@example.com",
+        "phone": "+47 400 00 310",
+        "loyalty_member": false,
+        "car": "Fiktiv Sedan"
+      },
+      "shipping_address": {
+        "name": "Anne Testmann",
+        "street": "Demoveien 19",
+        "postal_code": "2317",
+        "city": "Hamar",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1004",
+          "name": "Vaskebøtte 20 L med grit guard",
+          "category": "Vask",
+          "quantity": 1,
+          "unit_price": 349.0
+        },
+        {
+          "sku": "BP-1024",
+          "name": "Spylervæske vinter -25 °C 4 L",
+          "category": "Sesong",
+          "quantity": 1,
+          "unit_price": 119.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 468.0,
+        "discount_code": "VASK10",
+        "discount_amount": 46.8,
+        "shipping_cost": 129.0,
+        "vat_rate": 0.25,
+        "vat_included": 110.04,
+        "total": 550.2
+      },
+      "payment": {
+        "method": "Klarna delbetaling",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Hjemlevering",
+        "carrier": "Helthjem",
+        "tracking_number": "5650724425468526",
+        "tracking_url": "https://helthjem.no/sporing/5650724425468526",
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": "2026-11-19T11:55:00Z",
+        "estimated_delivery": "2026-11-22",
+        "delivered_date": null
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": false,
+      "return_deadline": null,
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-11-19T05:55:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-11-19T05:57:00Z"
+        },
+        {
+          "status": "Sendt",
+          "timestamp": "2026-11-19T11:55:00Z"
+        }
+      ],
+      "customer_notes": null
+    },
+    {
+      "id": 6711,
+      "order_id": 6711,
+      "order_number": "#6711",
+      "status": "Under transport",
+      "order_date": "2026-11-19T05:33:00Z",
+      "last_updated": "2026-11-20T01:33:00Z",
+      "customer": {
+        "customer_id": "TEST-62300",
+        "first_name": "Per",
+        "last_name": "Eksempelsen",
+        "email": "per.eksempelsen42@example.com",
+        "phone": "+47 400 00 974",
+        "loyalty_member": false,
+        "car": "Testbil Model S"
+      },
+      "shipping_address": {
+        "name": "Per Eksempelsen",
+        "street": "Fiktivveien 81",
+        "postal_code": "4006",
+        "city": "Stavanger",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1007",
+          "name": "Felgrens syrefri 750 ml",
+          "category": "Felg og dekk",
+          "quantity": 1,
+          "unit_price": 219.0
+        },
+        {
+          "sku": "BP-1004",
+          "name": "Vaskebøtte 20 L med grit guard",
+          "category": "Vask",
+          "quantity": 1,
+          "unit_price": 349.0
+        },
+        {
+          "sku": "BP-1021",
+          "name": "Glassrens stripefri 500 ml",
+          "category": "Interiør",
+          "quantity": 1,
+          "unit_price": 129.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 697.0,
+        "discount_code": "VASK10",
+        "discount_amount": 69.7,
+        "shipping_cost": 129.0,
+        "vat_rate": 0.25,
+        "vat_included": 151.26,
+        "total": 756.3
+      },
+      "payment": {
+        "method": "Kort (Mastercard)",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Hjemlevering",
+        "carrier": "PostNord",
+        "tracking_number": "1113644980387309",
+        "tracking_url": "https://www.postnord.no/sporing?id=1113644980387309",
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": "2026-11-19T11:33:00Z",
+        "estimated_delivery": "2026-11-22",
+        "delivered_date": null
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": false,
+      "return_deadline": null,
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-11-19T05:33:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-11-19T05:35:00Z"
+        },
+        {
+          "status": "Sendt",
+          "timestamp": "2026-11-19T11:33:00Z"
+        },
+        {
+          "status": "Under transport",
+          "timestamp": "2026-11-20T01:33:00Z"
+        }
+      ],
+      "customer_notes": "Kan leveres på trappa"
+    },
+    {
+      "id": 3543,
+      "order_id": 3543,
+      "order_number": "#3543",
+      "status": "Under transport",
+      "order_date": "2026-11-19T00:09:00Z",
+      "last_updated": "2026-11-19T20:09:00Z",
+      "customer": {
+        "customer_id": "TEST-23751",
+        "first_name": "Anne",
+        "last_name": "Testmann",
+        "email": "anne.testmann98@example.com",
+        "phone": "+47 400 00 485",
+        "loyalty_member": false,
+        "car": "Fiktiv Sedan"
+      },
+      "shipping_address": {
+        "name": "Anne Testmann",
+        "street": "Testveien 81",
+        "postal_code": "9008",
+        "city": "Tromsø",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1003",
+          "name": "Vaskehanske mikrofiber",
+          "category": "Vask",
+          "quantity": 1,
+          "unit_price": 129.0
+        },
+        {
+          "sku": "BP-1001",
+          "name": "Bilshampo pH-nøytral 1 L",
+          "category": "Vask",
+          "quantity": 1,
+          "unit_price": 189.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 318.0,
+        "discount_code": "VASK20",
+        "discount_amount": 63.6,
+        "shipping_cost": 199.0,
+        "vat_rate": 0.25,
+        "vat_included": 90.68,
+        "total": 453.4
+      },
+      "payment": {
+        "method": "Vipps",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Ekspress",
+        "carrier": "Porterbuddy",
+        "tracking_number": "9642553785570091",
+        "tracking_url": "https://porterbuddy.com/track/9642553785570091",
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": "2026-11-19T06:09:00Z",
+        "estimated_delivery": "2026-11-21",
+        "delivered_date": null
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": false,
+      "return_deadline": null,
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-11-19T00:09:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-11-19T00:11:00Z"
+        },
+        {
+          "status": "Sendt",
+          "timestamp": "2026-11-19T06:09:00Z"
+        },
+        {
+          "status": "Under transport",
+          "timestamp": "2026-11-19T20:09:00Z"
+        }
+      ],
+      "customer_notes": "Gave – ikke legg ved kvittering"
+    },
+    {
+      "id": 1555,
+      "order_id": 1555,
+      "order_number": "#1555",
+      "status": "Sendt",
+      "order_date": "2026-11-18T23:04:00Z",
+      "last_updated": "2026-11-19T05:04:00Z",
+      "customer": {
+        "customer_id": "TEST-90914",
+        "first_name": "Demo",
+        "last_name": "Dummysen",
+        "email": "demo.dummysen67@example.com",
+        "phone": "+47 400 00 258",
+        "loyalty_member": false,
+        "car": "Testbil Model S"
+      },
+      "shipping_address": {
+        "name": "Demo Dummysen",
+        "street": "Dummygata 42",
+        "postal_code": "7010",
+        "city": "Trondheim",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1017",
+          "name": "Polérpasta medium cut 250 ml",
+          "category": "Polering",
+          "quantity": 1,
+          "unit_price": 289.0
+        },
+        {
+          "sku": "BP-1007",
+          "name": "Felgrens syrefri 750 ml",
+          "category": "Felg og dekk",
+          "quantity": 1,
+          "unit_price": 219.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 508.0,
+        "discount_code": "VASK20",
+        "discount_amount": 101.6,
+        "shipping_cost": 199.0,
+        "vat_rate": 0.25,
+        "vat_included": 121.08,
+        "total": 605.4
+      },
+      "payment": {
+        "method": "Klarna delbetaling",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Ekspress",
+        "carrier": "Porterbuddy",
+        "tracking_number": "8599037647099028",
+        "tracking_url": "https://porterbuddy.com/track/8599037647099028",
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": "2026-11-19T05:04:00Z",
+        "estimated_delivery": "2026-11-20",
+        "delivered_date": null
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": false,
+      "return_deadline": null,
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-11-18T23:04:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-11-18T23:06:00Z"
+        },
+        {
+          "status": "Sendt",
+          "timestamp": "2026-11-19T05:04:00Z"
+        }
+      ],
+      "customer_notes": "Ring før levering"
+    },
+    {
+      "id": 1451,
+      "order_id": 1451,
+      "order_number": "#1451",
+      "status": "Under transport",
+      "order_date": "2026-11-18T22:01:00Z",
+      "last_updated": "2026-11-19T02:01:00Z",
+      "customer": {
+        "customer_id": "TEST-37889",
+        "first_name": "Per",
+        "last_name": "Kunde",
+        "email": "per.kunde84@example.com",
+        "phone": "+47 400 00 399",
+        "loyalty_member": false,
+        "car": "Fiktiv Sedan"
+      },
+      "shipping_address": {
+        "name": "Per Kunde",
+        "street": "Demoveien 34",
+        "postal_code": "7010",
+        "city": "Trondheim",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1014",
+          "name": "Keramisk coating-sett 30 ml",
+          "category": "Beskyttelse",
+          "quantity": 1,
+          "unit_price": 1290.0
+        },
+        {
+          "sku": "BP-1007",
+          "name": "Felgrens syrefri 750 ml",
+          "category": "Felg og dekk",
+          "quantity": 1,
+          "unit_price": 219.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 1509.0,
+        "discount_code": null,
+        "discount_amount": 0.0,
+        "shipping_cost": 0.0,
+        "vat_rate": 0.25,
+        "vat_included": 301.8,
+        "total": 1509.0
+      },
+      "payment": {
+        "method": "Klarna delbetaling",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Henting i butikk",
+        "carrier": null,
+        "tracking_number": null,
+        "tracking_url": null,
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": "2026-11-19T02:01:00Z",
+        "estimated_delivery": "2026-11-20",
+        "delivered_date": null
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": false,
+      "return_deadline": null,
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-11-18T22:01:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-11-18T22:03:00Z"
+        },
+        {
+          "status": "Klar for henting i butikk",
+          "timestamp": "2026-11-19T02:01:00Z"
+        }
+      ],
+      "customer_notes": "Kan leveres på trappa"
+    },
+    {
+      "id": 2099,
+      "order_id": 2099,
+      "order_number": "#2099",
+      "status": "Under transport",
+      "order_date": "2026-11-18T21:28:00Z",
+      "last_updated": "2026-11-20T17:28:00Z",
+      "customer": {
+        "customer_id": "TEST-31641",
+        "first_name": "Per",
+        "last_name": "Dummysen",
+        "email": "per.dummysen56@example.com",
+        "phone": "+47 400 00 802",
+        "loyalty_member": false,
+        "car": "Testbil Model S"
+      },
+      "shipping_address": {
+        "name": "Per Dummysen",
+        "street": "Testveien 45",
+        "postal_code": "9008",
+        "city": "Tromsø",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1021",
+          "name": "Glassrens stripefri 500 ml",
+          "category": "Interiør",
+          "quantity": 1,
+          "unit_price": 129.0
+        },
+        {
+          "sku": "BP-1026",
+          "name": "Gavekort bilvask Premium",
+          "category": "Gavekort",
+          "quantity": 1,
+          "unit_price": 599.0
+        },
+        {
+          "sku": "BP-1005",
+          "name": "Skumkanon for høytrykksspyler",
+          "category": "Utstyr",
+          "quantity": 1,
+          "unit_price": 499.0
+        },
+        {
+          "sku": "BP-1001",
+          "name": "Bilshampo pH-nøytral 1 L",
+          "category": "Vask",
+          "quantity": 1,
+          "unit_price": 189.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 1416.0,
+        "discount_code": null,
+        "discount_amount": 0.0,
+        "shipping_cost": 0.0,
+        "vat_rate": 0.25,
+        "vat_included": 283.2,
+        "total": 1416.0
+      },
+      "payment": {
+        "method": "Klarna delbetaling",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Hentested",
+        "carrier": "PostNord",
+        "tracking_number": "9616637640121278",
+        "tracking_url": "https://www.postnord.no/sporing?id=9616637640121278",
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": "2026-11-20T03:28:00Z",
+        "estimated_delivery": "2026-11-23",
+        "delivered_date": null
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": false,
+      "return_deadline": null,
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-11-18T21:28:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-11-18T21:30:00Z"
+        },
+        {
+          "status": "Sendt",
+          "timestamp": "2026-11-20T03:28:00Z"
+        },
+        {
+          "status": "Under transport",
+          "timestamp": "2026-11-20T17:28:00Z"
+        }
+      ],
+      "customer_notes": "Leveres til nabo ved fravær"
+    },
+    {
+      "id": 4517,
+      "order_id": 4517,
+      "order_number": "#4517",
+      "status": "Ute for levering",
+      "order_date": "2026-11-18T08:33:00Z",
+      "last_updated": "2026-11-21T08:00:00Z",
+      "customer": {
+        "customer_id": "TEST-59716",
+        "first_name": "Lise",
+        "last_name": "Kunde",
+        "email": "lise.kunde22@example.com",
+        "phone": "+47 400 00 745",
+        "loyalty_member": true,
+        "car": "Eksempel SUV EV"
+      },
+      "shipping_address": {
+        "name": "Lise Kunde",
+        "street": "Eksempelgata 69",
+        "postal_code": "5003",
+        "city": "Bergen",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1012",
+          "name": "Insektfjerner 500 ml",
+          "category": "Rens",
+          "quantity": 1,
+          "unit_price": 149.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 149.0,
+        "discount_code": null,
+        "discount_amount": 0.0,
+        "shipping_cost": 129.0,
+        "vat_rate": 0.25,
+        "vat_included": 55.6,
+        "total": 278.0
+      },
+      "payment": {
+        "method": "Klarna delbetaling",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Hjemlevering",
+        "carrier": "PostNord",
+        "tracking_number": "9117429898405219",
+        "tracking_url": "https://www.postnord.no/sporing?id=9117429898405219",
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": "2026-11-18T14:33:00Z",
+        "estimated_delivery": "2026-11-21",
+        "delivered_date": null
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": false,
+      "return_deadline": null,
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-11-18T08:33:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-11-18T08:35:00Z"
+        },
+        {
+          "status": "Sendt",
+          "timestamp": "2026-11-18T14:33:00Z"
+        },
+        {
+          "status": "Under transport",
+          "timestamp": "2026-11-19T04:33:00Z"
+        },
+        {
+          "status": "Ute for levering",
+          "timestamp": "2026-11-21T08:00:00Z"
+        }
+      ],
+      "customer_notes": "Leveres til nabo ved fravær"
+    },
+    {
+      "id": 3861,
+      "order_id": 3861,
+      "order_number": "#3861",
+      "status": "På vent",
+      "order_date": "2026-11-18T06:54:00Z",
+      "last_updated": "2026-11-18T07:54:00Z",
+      "customer": {
+        "customer_id": "TEST-44863",
+        "first_name": "Ole",
+        "last_name": "Prøvesen",
+        "email": "ole.provesen9@example.com",
+        "phone": "+47 400 00 751",
+        "loyalty_member": false,
+        "car": "Eksempel SUV EV"
+      },
+      "shipping_address": {
+        "name": "Ole Prøvesen",
+        "street": "Dummygata 67",
+        "postal_code": "4610",
+        "city": "Kristiansand",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1008",
+          "name": "Dekkglans 500 ml",
+          "category": "Felg og dekk",
+          "quantity": 1,
+          "unit_price": 169.0
+        },
+        {
+          "sku": "BP-1021",
+          "name": "Glassrens stripefri 500 ml",
+          "category": "Interiør",
+          "quantity": 1,
+          "unit_price": 129.0
+        },
+        {
+          "sku": "BP-1002",
+          "name": "Snøskum / forvask 1 L",
+          "category": "Vask",
+          "quantity": 1,
+          "unit_price": 229.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 527.0,
+        "discount_code": "VASK20",
+        "discount_amount": 105.4,
+        "shipping_cost": 59.0,
+        "vat_rate": 0.25,
+        "vat_included": 96.12,
+        "total": 480.6
+      },
+      "payment": {
+        "method": "Kort (Mastercard)",
+        "status": "Venter"
+      },
+      "shipping": {
+        "method": "Hentested",
+        "carrier": null,
+        "tracking_number": null,
+        "tracking_url": null,
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": null,
+        "estimated_delivery": "2026-11-23",
+        "delivered_date": null
+      },
+      "on_hold_reason": "Venter på betaling (Klarna)",
+      "cancellation_reason": null,
+      "can_cancel": true,
+      "can_change_address": true,
+      "return_eligible": false,
+      "return_deadline": null,
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-11-18T06:54:00Z"
+        },
+        {
+          "status": "På vent",
+          "timestamp": "2026-11-18T07:54:00Z"
+        }
+      ],
+      "customer_notes": null
+    },
+    {
+      "id": 5709,
+      "order_id": 5709,
+      "order_number": "#5709",
+      "status": "Under transport",
+      "order_date": "2026-11-18T03:38:00Z",
+      "last_updated": "2026-11-18T23:38:00Z",
+      "customer": {
+        "customer_id": "TEST-33900",
+        "first_name": "Per",
+        "last_name": "Eksempelsen",
+        "email": "per.eksempelsen51@example.com",
+        "phone": "+47 400 00 369",
+        "loyalty_member": true,
+        "car": "Testbil Model S"
+      },
+      "shipping_address": {
+        "name": "Per Eksempelsen",
+        "street": "Prøvegata 69",
+        "postal_code": "3015",
+        "city": "Drammen",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1008",
+          "name": "Dekkglans 500 ml",
+          "category": "Felg og dekk",
+          "quantity": 1,
+          "unit_price": 169.0
+        },
+        {
+          "sku": "BP-1005",
+          "name": "Skumkanon for høytrykksspyler",
+          "category": "Utstyr",
+          "quantity": 1,
+          "unit_price": 499.0
+        },
+        {
+          "sku": "BP-1003",
+          "name": "Vaskehanske mikrofiber",
+          "category": "Vask",
+          "quantity": 1,
+          "unit_price": 129.0
+        },
+        {
+          "sku": "BP-1006",
+          "name": "Tørkehåndkle XL 90x60 cm",
+          "category": "Tørk",
+          "quantity": 1,
+          "unit_price": 279.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 1076.0,
+        "discount_code": "VASK10",
+        "discount_amount": 107.6,
+        "shipping_cost": 199.0,
+        "vat_rate": 0.25,
+        "vat_included": 233.48,
+        "total": 1167.4
+      },
+      "payment": {
+        "method": "Kort (Mastercard)",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Ekspress",
+        "carrier": "Porterbuddy",
+        "tracking_number": "6306354059349038",
+        "tracking_url": "https://porterbuddy.com/track/6306354059349038",
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": "2026-11-18T09:38:00Z",
+        "estimated_delivery": "2026-11-20",
+        "delivered_date": null
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": false,
+      "return_deadline": null,
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-11-18T03:38:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-11-18T03:40:00Z"
+        },
+        {
+          "status": "Sendt",
+          "timestamp": "2026-11-18T09:38:00Z"
+        },
+        {
+          "status": "Under transport",
+          "timestamp": "2026-11-18T23:38:00Z"
+        }
+      ],
+      "customer_notes": "Ring før levering"
+    },
+    {
+      "id": 5019,
+      "order_id": 5019,
+      "order_number": "#5019",
+      "status": "Under transport",
+      "order_date": "2026-11-18T02:58:00Z",
+      "last_updated": "2026-11-19T22:58:00Z",
+      "customer": {
+        "customer_id": "TEST-15290",
+        "first_name": "Lise",
+        "last_name": "Demosen",
+        "email": "lise.demosen37@example.com",
+        "phone": "+47 400 00 997",
+        "loyalty_member": true,
+        "car": null
+      },
+      "shipping_address": {
+        "name": "Lise Demosen",
+        "street": "Testveien 25",
+        "postal_code": "6002",
+        "city": "Ålesund",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1001",
+          "name": "Bilshampo pH-nøytral 1 L",
+          "category": "Vask",
+          "quantity": 2,
+          "unit_price": 189.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 378.0,
+        "discount_code": null,
+        "discount_amount": 0.0,
+        "shipping_cost": 49.0,
+        "vat_rate": 0.25,
+        "vat_included": 85.4,
+        "total": 427.0
+      },
+      "payment": {
+        "method": "Klarna delbetaling",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Pakke i postkassen",
+        "carrier": "PostNord",
+        "tracking_number": "4367580409824314",
+        "tracking_url": "https://www.postnord.no/sporing?id=4367580409824314",
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": "2026-11-19T08:58:00Z",
+        "estimated_delivery": "2026-11-22",
+        "delivered_date": null
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": false,
+      "return_deadline": null,
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-11-18T02:58:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-11-18T03:00:00Z"
+        },
+        {
+          "status": "Sendt",
+          "timestamp": "2026-11-19T08:58:00Z"
+        },
+        {
+          "status": "Under transport",
+          "timestamp": "2026-11-19T22:58:00Z"
+        }
+      ],
+      "customer_notes": "Leveres til nabo ved fravær"
+    },
+    {
+      "id": 6153,
+      "order_id": 6153,
+      "order_number": "#6153",
+      "status": "På vent",
+      "order_date": "2026-11-18T00:47:00Z",
+      "last_updated": "2026-11-18T01:47:00Z",
+      "customer": {
+        "customer_id": "TEST-26129",
+        "first_name": "Ola",
+        "last_name": "Testmann",
+        "email": "ola.testmann12@example.com",
+        "phone": "+47 400 00 253",
+        "loyalty_member": true,
+        "car": "Testbil Model S"
+      },
+      "shipping_address": {
+        "name": "Ola Testmann",
+        "street": "Testveien 72",
+        "postal_code": "2000",
+        "city": "Lillestrøm",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1013",
+          "name": "Hardvoks carnauba 200 g",
+          "category": "Beskyttelse",
+          "quantity": 1,
+          "unit_price": 399.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 399.0,
+        "discount_code": "VASK10",
+        "discount_amount": 39.9,
+        "shipping_cost": 0.0,
+        "vat_rate": 0.25,
+        "vat_included": 71.82,
+        "total": 359.1
+      },
+      "payment": {
+        "method": "Vipps",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Henting i butikk",
+        "carrier": null,
+        "tracking_number": null,
+        "tracking_url": null,
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": null,
+        "estimated_delivery": "2026-11-20",
+        "delivered_date": null
+      },
+      "on_hold_reason": "Vare midlertidig utsolgt – forventet inn om 5 dager",
+      "cancellation_reason": null,
+      "can_cancel": true,
+      "can_change_address": true,
+      "return_eligible": false,
+      "return_deadline": null,
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-11-18T00:47:00Z"
+        },
+        {
+          "status": "På vent",
+          "timestamp": "2026-11-18T01:47:00Z"
+        }
+      ],
+      "customer_notes": "Gave – ikke legg ved kvittering"
+    },
+    {
+      "id": 5214,
+      "order_id": 5214,
+      "order_number": "#5214",
+      "status": "Under transport",
+      "order_date": "2026-11-17T05:13:00Z",
+      "last_updated": "2026-11-18T01:13:00Z",
+      "customer": {
+        "customer_id": "TEST-35419",
+        "first_name": "Lise",
+        "last_name": "Testmann",
+        "email": "lise.testmann48@example.com",
+        "phone": "+47 400 00 336",
+        "loyalty_member": false,
+        "car": "Demo Kombi 2.0"
+      },
+      "shipping_address": {
+        "name": "Lise Testmann",
+        "street": "Demoveien 14",
+        "postal_code": "4006",
+        "city": "Stavanger",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1007",
+          "name": "Felgrens syrefri 750 ml",
+          "category": "Felg og dekk",
+          "quantity": 2,
+          "unit_price": 219.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 438.0,
+        "discount_code": null,
+        "discount_amount": 0.0,
+        "shipping_cost": 199.0,
+        "vat_rate": 0.25,
+        "vat_included": 127.4,
+        "total": 637.0
+      },
+      "payment": {
+        "method": "Klarna delbetaling",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Ekspress",
+        "carrier": "Porterbuddy",
+        "tracking_number": "7898225622325852",
+        "tracking_url": "https://porterbuddy.com/track/7898225622325852",
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": "2026-11-17T11:13:00Z",
+        "estimated_delivery": "2026-11-19",
+        "delivered_date": null
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": false,
+      "return_deadline": null,
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-11-17T05:13:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-11-17T05:15:00Z"
+        },
+        {
+          "status": "Sendt",
+          "timestamp": "2026-11-17T11:13:00Z"
+        },
+        {
+          "status": "Under transport",
+          "timestamp": "2026-11-18T01:13:00Z"
+        }
+      ],
+      "customer_notes": "Kan leveres på trappa"
+    },
+    {
+      "id": 8630,
+      "order_id": 8630,
+      "order_number": "#8630",
+      "status": "Under transport",
+      "order_date": "2026-11-17T04:31:00Z",
+      "last_updated": "2026-11-19T00:31:00Z",
+      "customer": {
+        "customer_id": "TEST-95137",
+        "first_name": "Eksempel",
+        "last_name": "Prøvesen",
+        "email": "eksempel.provesen56@example.com",
+        "phone": "+47 400 00 134",
+        "loyalty_member": false,
+        "car": "Fiktiv Sedan"
+      },
+      "shipping_address": {
+        "name": "Eksempel Prøvesen",
+        "street": "Demoveien 21",
+        "postal_code": "1606",
+        "city": "Fredrikstad",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1026",
+          "name": "Gavekort bilvask Premium",
+          "category": "Gavekort",
+          "quantity": 1,
+          "unit_price": 599.0
+        },
+        {
+          "sku": "BP-1020",
+          "name": "Skinnrens og -pleie 2-i-1",
+          "category": "Interiør",
+          "quantity": 1,
+          "unit_price": 249.0
+        },
+        {
+          "sku": "BP-1003",
+          "name": "Vaskehanske mikrofiber",
+          "category": "Vask",
+          "quantity": 2,
+          "unit_price": 129.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 1106.0,
+        "discount_code": null,
+        "discount_amount": 0.0,
+        "shipping_cost": 0.0,
+        "vat_rate": 0.25,
+        "vat_included": 221.2,
+        "total": 1106.0
+      },
+      "payment": {
+        "method": "Klarna faktura",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Pakke i postkassen",
+        "carrier": "Posten/Bring",
+        "tracking_number": "1583060741603193",
+        "tracking_url": "https://sporing.bring.no/sporing/1583060741603193",
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": "2026-11-18T10:31:00Z",
+        "estimated_delivery": "2026-11-21",
+        "delivered_date": null
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": false,
+      "return_deadline": null,
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-11-17T04:31:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-11-17T04:33:00Z"
+        },
+        {
+          "status": "Sendt",
+          "timestamp": "2026-11-18T10:31:00Z"
+        },
+        {
+          "status": "Under transport",
+          "timestamp": "2026-11-19T00:31:00Z"
+        }
+      ],
+      "customer_notes": null
+    },
+    {
+      "id": 7101,
+      "order_id": 7101,
+      "order_number": "#7101",
+      "status": "Ute for levering",
+      "order_date": "2026-11-16T21:49:00Z",
+      "last_updated": "2026-11-21T09:00:00Z",
+      "customer": {
+        "customer_id": "TEST-25475",
+        "first_name": "Kari",
+        "last_name": "Testesen",
+        "email": "kari.testesen73@example.com",
+        "phone": "+47 400 00 624",
+        "loyalty_member": false,
+        "car": "Demo Kombi 2.0"
+      },
+      "shipping_address": {
+        "name": "Kari Testesen",
+        "street": "Eksempelgata 63",
+        "postal_code": "0150",
+        "city": "Oslo",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1003",
+          "name": "Vaskehanske mikrofiber",
+          "category": "Vask",
+          "quantity": 1,
+          "unit_price": 129.0
+        },
+        {
+          "sku": "BP-1019",
+          "name": "Interiørrens 500 ml",
+          "category": "Interiør",
+          "quantity": 2,
+          "unit_price": 179.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 487.0,
+        "discount_code": null,
+        "discount_amount": 0.0,
+        "shipping_cost": 129.0,
+        "vat_rate": 0.25,
+        "vat_included": 123.2,
+        "total": 616.0
+      },
+      "payment": {
+        "method": "Klarna faktura",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Hjemlevering",
+        "carrier": "Helthjem",
+        "tracking_number": "3593513634450490",
+        "tracking_url": "https://helthjem.no/sporing/3593513634450490",
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": "2026-11-17T03:49:00Z",
+        "estimated_delivery": "2026-11-19",
+        "delivered_date": null
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": false,
+      "return_deadline": null,
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-11-16T21:49:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-11-16T21:51:00Z"
+        },
+        {
+          "status": "Sendt",
+          "timestamp": "2026-11-17T03:49:00Z"
+        },
+        {
+          "status": "Under transport",
+          "timestamp": "2026-11-17T17:49:00Z"
+        },
+        {
+          "status": "Ute for levering",
+          "timestamp": "2026-11-21T09:00:00Z"
+        }
+      ],
+      "customer_notes": null
+    },
+    {
+      "id": 5125,
+      "order_id": 5125,
+      "order_number": "#5125",
+      "status": "Levert",
+      "order_date": "2026-11-16T05:40:00Z",
+      "last_updated": "2026-11-20T19:40:00Z",
+      "customer": {
+        "customer_id": "TEST-50291",
+        "first_name": "Ole",
+        "last_name": "Testmann",
+        "email": "ole.testmann90@example.com",
+        "phone": "+47 400 00 156",
+        "loyalty_member": true,
+        "car": "Eksempel SUV EV"
+      },
+      "shipping_address": {
+        "name": "Ole Testmann",
+        "street": "Dummygata 83",
+        "postal_code": "5003",
+        "city": "Bergen",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1016",
+          "name": "Polermaskin eksentrisk 900 W",
+          "category": "Polering",
+          "quantity": 1,
+          "unit_price": 2490.0
+        },
+        {
+          "sku": "BP-1017",
+          "name": "Polérpasta medium cut 250 ml",
+          "category": "Polering",
+          "quantity": 1,
+          "unit_price": 289.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 2779.0,
+        "discount_code": null,
+        "discount_amount": 0.0,
+        "shipping_cost": 0.0,
+        "vat_rate": 0.25,
+        "vat_included": 555.8,
+        "total": 2779.0
+      },
+      "payment": {
+        "method": "Klarna faktura",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Hentested",
+        "carrier": "PostNord",
+        "tracking_number": "6851526600076964",
+        "tracking_url": "https://www.postnord.no/sporing?id=6851526600076964",
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": "2026-11-17T11:40:00Z",
+        "estimated_delivery": "2026-11-20",
+        "delivered_date": "2026-11-20T19:40:00Z"
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": true,
+      "return_deadline": "2026-12-20T19:40:00Z",
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-11-16T05:40:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-11-16T05:42:00Z"
+        },
+        {
+          "status": "Sendt",
+          "timestamp": "2026-11-17T11:40:00Z"
+        },
+        {
+          "status": "Under transport",
+          "timestamp": "2026-11-18T01:40:00Z"
+        },
+        {
+          "status": "Levert",
+          "timestamp": "2026-11-20T19:40:00Z"
+        }
+      ],
+      "customer_notes": null
+    },
+    {
+      "id": 3270,
+      "order_id": 3270,
+      "order_number": "#3270",
+      "status": "Klar til henting",
+      "order_date": "2026-11-15T23:45:00Z",
+      "last_updated": "2026-11-20T02:00:00Z",
+      "customer": {
+        "customer_id": "TEST-75152",
+        "first_name": "Test",
+        "last_name": "Kunde",
+        "email": "test.kunde7@example.com",
+        "phone": "+47 400 00 663",
+        "loyalty_member": true,
+        "car": "Demo Kombi 2.0"
+      },
+      "shipping_address": {
+        "name": "Test Kunde",
+        "street": "Prøvegata 55",
+        "postal_code": "8006",
+        "city": "Bodø",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1016",
+          "name": "Polermaskin eksentrisk 900 W",
+          "category": "Polering",
+          "quantity": 2,
+          "unit_price": 2490.0
+        },
+        {
+          "sku": "BP-1018",
+          "name": "Polérputer 125 mm (3-pk)",
+          "category": "Polering",
+          "quantity": 1,
+          "unit_price": 199.0
+        },
+        {
+          "sku": "BP-1022",
+          "name": "Luktfjerner nøytral 250 ml",
+          "category": "Interiør",
+          "quantity": 1,
+          "unit_price": 149.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 5328.0,
+        "discount_code": "VASK20",
+        "discount_amount": 1065.6,
+        "shipping_cost": 0.0,
+        "vat_rate": 0.25,
+        "vat_included": 852.48,
+        "total": 4262.4
+      },
+      "payment": {
+        "method": "Kort (Visa)",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Hentested",
+        "carrier": "Posten/Bring",
+        "tracking_number": "2872348365873491",
+        "tracking_url": "https://sporing.bring.no/sporing/2872348365873491",
+        "pickup_point": "Test-Kiwi Bodø sentrum",
+        "pickup_deadline": "2026-11-27",
+        "shipped_date": "2026-11-17T05:45:00Z",
+        "estimated_delivery": "2026-11-20",
+        "delivered_date": null
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": false,
+      "return_deadline": null,
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-11-15T23:45:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-11-15T23:47:00Z"
+        },
+        {
+          "status": "Sendt",
+          "timestamp": "2026-11-17T05:45:00Z"
+        },
+        {
+          "status": "Under transport",
+          "timestamp": "2026-11-17T19:45:00Z"
+        },
+        {
+          "status": "Klar til henting",
+          "timestamp": "2026-11-20T02:00:00Z"
+        }
+      ],
+      "customer_notes": null
+    },
+    {
+      "id": 4181,
+      "order_id": 4181,
+      "order_number": "#4181",
+      "status": "Kansellert",
+      "order_date": "2026-11-15T09:47:00Z",
+      "last_updated": "2026-11-15T21:47:00Z",
+      "customer": {
+        "customer_id": "TEST-34267",
+        "first_name": "Kari",
+        "last_name": "Dummysen",
+        "email": "kari.dummysen66@example.com",
+        "phone": "+47 400 00 735",
+        "loyalty_member": true,
+        "car": "Testbil Model S"
+      },
+      "shipping_address": {
+        "name": "Kari Dummysen",
+        "street": "Testveien 64",
+        "postal_code": "7010",
+        "city": "Trondheim",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1002",
+          "name": "Snøskum / forvask 1 L",
+          "category": "Vask",
+          "quantity": 1,
+          "unit_price": 229.0
+        },
+        {
+          "sku": "BP-1020",
+          "name": "Skinnrens og -pleie 2-i-1",
+          "category": "Interiør",
+          "quantity": 1,
+          "unit_price": 249.0
+        },
+        {
+          "sku": "BP-1024",
+          "name": "Spylervæske vinter -25 °C 4 L",
+          "category": "Sesong",
+          "quantity": 1,
+          "unit_price": 119.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 597.0,
+        "discount_code": "VASK10",
+        "discount_amount": 59.7,
+        "shipping_cost": 199.0,
+        "vat_rate": 0.25,
+        "vat_included": 147.26,
+        "total": 736.3
+      },
+      "payment": {
+        "method": "Klarna delbetaling",
+        "status": "Refundert"
+      },
+      "shipping": {
+        "method": "Ekspress",
+        "carrier": null,
+        "tracking_number": null,
+        "tracking_url": null,
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": null,
+        "estimated_delivery": null,
+        "delivered_date": null
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": "Vare utsolgt",
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": false,
+      "return_deadline": null,
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-11-15T09:47:00Z"
+        },
+        {
+          "status": "Kansellert",
+          "timestamp": "2026-11-15T21:47:00Z"
+        }
+      ],
+      "customer_notes": "Kan leveres på trappa"
+    },
+    {
+      "id": 5419,
+      "order_id": 5419,
+      "order_number": "#5419",
+      "status": "Klar til henting",
+      "order_date": "2026-11-15T09:26:00Z",
+      "last_updated": "2026-11-20T09:00:00Z",
+      "customer": {
+        "customer_id": "TEST-11618",
+        "first_name": "Eksempel",
+        "last_name": "Prøvesen",
+        "email": "eksempel.provesen2@example.com",
+        "phone": "+47 400 00 727",
+        "loyalty_member": false,
+        "car": "Testbil Model S"
+      },
+      "shipping_address": {
+        "name": "Eksempel Prøvesen",
+        "street": "Eksempelgata 53",
+        "postal_code": "0150",
+        "city": "Oslo",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1013",
+          "name": "Hardvoks carnauba 200 g",
+          "category": "Beskyttelse",
+          "quantity": 1,
+          "unit_price": 399.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 399.0,
+        "discount_code": null,
+        "discount_amount": 0.0,
+        "shipping_cost": 59.0,
+        "vat_rate": 0.25,
+        "vat_included": 91.6,
+        "total": 458.0
+      },
+      "payment": {
+        "method": "Kort (Visa)",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Hentested",
+        "carrier": "Posten/Bring",
+        "tracking_number": "9212239713693714",
+        "tracking_url": "https://sporing.bring.no/sporing/9212239713693714",
+        "pickup_point": "Test-Kiwi Oslo sentrum",
+        "pickup_deadline": "2026-11-30",
+        "shipped_date": "2026-11-16T15:26:00Z",
+        "estimated_delivery": "2026-11-20",
+        "delivered_date": null
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": false,
+      "return_deadline": null,
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-11-15T09:26:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-11-15T09:28:00Z"
+        },
+        {
+          "status": "Sendt",
+          "timestamp": "2026-11-16T15:26:00Z"
+        },
+        {
+          "status": "Under transport",
+          "timestamp": "2026-11-17T05:26:00Z"
+        },
+        {
+          "status": "Klar til henting",
+          "timestamp": "2026-11-20T09:00:00Z"
+        }
+      ],
+      "customer_notes": "Leveres til nabo ved fravær"
+    },
+    {
+      "id": 3415,
+      "order_id": 3415,
+      "order_number": "#3415",
+      "status": "Klar til henting",
+      "order_date": "2026-11-15T02:42:00Z",
+      "last_updated": "2026-11-20T09:00:00Z",
+      "customer": {
+        "customer_id": "TEST-76403",
+        "first_name": "Demo",
+        "last_name": "Prøvesen",
+        "email": "demo.provesen84@example.com",
+        "phone": "+47 400 00 560",
+        "loyalty_member": false,
+        "car": "Eksempel SUV EV"
+      },
+      "shipping_address": {
+        "name": "Demo Prøvesen",
+        "street": "Eksempelgata 27",
+        "postal_code": "2000",
+        "city": "Lillestrøm",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1015",
+          "name": "Sprayforsegling 500 ml",
+          "category": "Beskyttelse",
+          "quantity": 1,
+          "unit_price": 259.0
+        },
+        {
+          "sku": "BP-1025",
+          "name": "Isskrape med snøbørste",
+          "category": "Sesong",
+          "quantity": 1,
+          "unit_price": 159.0
+        },
+        {
+          "sku": "BP-1004",
+          "name": "Vaskebøtte 20 L med grit guard",
+          "category": "Vask",
+          "quantity": 1,
+          "unit_price": 349.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 767.0,
+        "discount_code": "VASK10",
+        "discount_amount": 76.7,
+        "shipping_cost": 59.0,
+        "vat_rate": 0.25,
+        "vat_included": 149.86,
+        "total": 749.3
+      },
+      "payment": {
+        "method": "Vipps",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Hentested",
+        "carrier": "Posten/Bring",
+        "tracking_number": "5134040410160953",
+        "tracking_url": "https://sporing.bring.no/sporing/5134040410160953",
+        "pickup_point": "Test-Kiwi Lillestrøm sentrum",
+        "pickup_deadline": "2026-11-25",
+        "shipped_date": "2026-11-16T08:42:00Z",
+        "estimated_delivery": "2026-11-20",
+        "delivered_date": null
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": false,
+      "return_deadline": null,
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-11-15T02:42:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-11-15T02:44:00Z"
+        },
+        {
+          "status": "Sendt",
+          "timestamp": "2026-11-16T08:42:00Z"
+        },
+        {
+          "status": "Under transport",
+          "timestamp": "2026-11-16T22:42:00Z"
+        },
+        {
+          "status": "Klar til henting",
+          "timestamp": "2026-11-20T09:00:00Z"
+        }
+      ],
+      "customer_notes": null
+    },
+    {
+      "id": 9103,
+      "order_id": 9103,
+      "order_number": "#9103",
+      "status": "Levert",
+      "order_date": "2026-11-11T05:05:00Z",
+      "last_updated": "2026-11-14T19:05:00Z",
+      "customer": {
+        "customer_id": "TEST-45108",
+        "first_name": "Demo",
+        "last_name": "Testesen",
+        "email": "demo.testesen36@example.com",
+        "phone": "+47 400 00 736",
+        "loyalty_member": true,
+        "car": "Fiktiv Sedan"
+      },
+      "shipping_address": {
+        "name": "Demo Testesen",
+        "street": "Dummygata 31",
+        "postal_code": "0150",
+        "city": "Oslo",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1015",
+          "name": "Sprayforsegling 500 ml",
+          "category": "Beskyttelse",
+          "quantity": 1,
+          "unit_price": 259.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 259.0,
+        "discount_code": null,
+        "discount_amount": 0.0,
+        "shipping_cost": 49.0,
+        "vat_rate": 0.25,
+        "vat_included": 61.6,
+        "total": 308.0
+      },
+      "payment": {
+        "method": "Vipps",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Pakke i postkassen",
+        "carrier": "Helthjem",
+        "tracking_number": "9346695208425288",
+        "tracking_url": "https://helthjem.no/sporing/9346695208425288",
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": "2026-11-12T11:05:00Z",
+        "estimated_delivery": "2026-11-14",
+        "delivered_date": "2026-11-14T19:05:00Z"
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": true,
+      "return_deadline": "2026-12-14T19:05:00Z",
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-11-11T05:05:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-11-11T05:07:00Z"
+        },
+        {
+          "status": "Sendt",
+          "timestamp": "2026-11-12T11:05:00Z"
+        },
+        {
+          "status": "Under transport",
+          "timestamp": "2026-11-13T01:05:00Z"
+        },
+        {
+          "status": "Levert",
+          "timestamp": "2026-11-14T19:05:00Z"
+        }
+      ],
+      "customer_notes": null
+    },
+    {
+      "id": 9399,
+      "order_id": 9399,
+      "order_number": "#9399",
+      "status": "Levert",
+      "order_date": "2026-11-10T06:34:00Z",
+      "last_updated": "2026-11-13T20:34:00Z",
+      "customer": {
+        "customer_id": "TEST-41927",
+        "first_name": "Demo",
+        "last_name": "Nordmann",
+        "email": "demo.nordmann17@example.com",
+        "phone": "+47 400 00 824",
+        "loyalty_member": true,
+        "car": null
+      },
+      "shipping_address": {
+        "name": "Demo Nordmann",
+        "street": "Testveien 82",
+        "postal_code": "1606",
+        "city": "Fredrikstad",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1019",
+          "name": "Interiørrens 500 ml",
+          "category": "Interiør",
+          "quantity": 1,
+          "unit_price": 179.0
+        },
+        {
+          "sku": "BP-1005",
+          "name": "Skumkanon for høytrykksspyler",
+          "category": "Utstyr",
+          "quantity": 2,
+          "unit_price": 499.0
+        },
+        {
+          "sku": "BP-1007",
+          "name": "Felgrens syrefri 750 ml",
+          "category": "Felg og dekk",
+          "quantity": 1,
+          "unit_price": 219.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 1396.0,
+        "discount_code": null,
+        "discount_amount": 0.0,
+        "shipping_cost": 0.0,
+        "vat_rate": 0.25,
+        "vat_included": 279.2,
+        "total": 1396.0
+      },
+      "payment": {
+        "method": "Kort (Visa)",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Pakke i postkassen",
+        "carrier": "Posten/Bring",
+        "tracking_number": "8219298586356744",
+        "tracking_url": "https://sporing.bring.no/sporing/8219298586356744",
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": "2026-11-11T12:34:00Z",
+        "estimated_delivery": "2026-11-13",
+        "delivered_date": "2026-11-13T20:34:00Z"
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": true,
+      "return_deadline": "2026-12-13T20:34:00Z",
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-11-10T06:34:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-11-10T06:36:00Z"
+        },
+        {
+          "status": "Sendt",
+          "timestamp": "2026-11-11T12:34:00Z"
+        },
+        {
+          "status": "Under transport",
+          "timestamp": "2026-11-12T02:34:00Z"
+        },
+        {
+          "status": "Levert",
+          "timestamp": "2026-11-13T20:34:00Z"
+        }
+      ],
+      "customer_notes": "Leveres til nabo ved fravær"
+    },
+    {
+      "id": 9543,
+      "order_id": 9543,
+      "order_number": "#9543",
+      "status": "Retur forespurt",
+      "order_date": "2026-11-09T06:49:00Z",
+      "last_updated": "2026-11-16T20:49:00Z",
+      "customer": {
+        "customer_id": "TEST-10234",
+        "first_name": "Anne",
+        "last_name": "Testesen",
+        "email": "anne.testesen33@example.com",
+        "phone": "+47 400 00 865",
+        "loyalty_member": true,
+        "car": "Testbil Model S"
+      },
+      "shipping_address": {
+        "name": "Anne Testesen",
+        "street": "Demoveien 79",
+        "postal_code": "8006",
+        "city": "Bodø",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1010",
+          "name": "Avfettingsmiddel / tjærefjerner 1 L",
+          "category": "Rens",
+          "quantity": 1,
+          "unit_price": 199.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 199.0,
+        "discount_code": null,
+        "discount_amount": 0.0,
+        "shipping_cost": 199.0,
+        "vat_rate": 0.25,
+        "vat_included": 79.6,
+        "total": 398.0
+      },
+      "payment": {
+        "method": "Klarna faktura",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Ekspress",
+        "carrier": "Porterbuddy",
+        "tracking_number": "9700571400083289",
+        "tracking_url": "https://porterbuddy.com/track/9700571400083289",
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": "2026-11-09T12:49:00Z",
+        "estimated_delivery": "2026-11-09",
+        "delivered_date": "2026-11-09T20:49:00Z"
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": false,
+      "return_deadline": "2026-12-09T20:49:00Z",
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-11-09T06:49:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-11-09T06:51:00Z"
+        },
+        {
+          "status": "Sendt",
+          "timestamp": "2026-11-09T12:49:00Z"
+        },
+        {
+          "status": "Under transport",
+          "timestamp": "2026-11-10T02:49:00Z"
+        },
+        {
+          "status": "Levert",
+          "timestamp": "2026-11-09T20:49:00Z"
+        },
+        {
+          "status": "Retur forespurt",
+          "timestamp": "2026-11-16T20:49:00Z"
+        }
+      ],
+      "customer_notes": "Kan leveres på trappa"
+    },
+    {
+      "id": 7428,
+      "order_id": 7428,
+      "order_number": "#7428",
+      "status": "Kansellert",
+      "order_date": "2026-11-09T05:04:00Z",
+      "last_updated": "2026-11-09T13:04:00Z",
+      "customer": {
+        "customer_id": "TEST-31163",
+        "first_name": "Prøve",
+        "last_name": "Dummysen",
+        "email": "prove.dummysen10@example.com",
+        "phone": "+47 400 00 823",
+        "loyalty_member": false,
+        "car": "Fiktiv Sedan"
+      },
+      "shipping_address": {
+        "name": "Prøve Dummysen",
+        "street": "Prøvegata 44",
+        "postal_code": "2317",
+        "city": "Hamar",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1015",
+          "name": "Sprayforsegling 500 ml",
+          "category": "Beskyttelse",
+          "quantity": 1,
+          "unit_price": 259.0
+        },
+        {
+          "sku": "BP-1008",
+          "name": "Dekkglans 500 ml",
+          "category": "Felg og dekk",
+          "quantity": 2,
+          "unit_price": 169.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 597.0,
+        "discount_code": "VASK10",
+        "discount_amount": 59.7,
+        "shipping_cost": 49.0,
+        "vat_rate": 0.25,
+        "vat_included": 117.26,
+        "total": 586.3
+      },
+      "payment": {
+        "method": "Klarna faktura",
+        "status": "Refundert"
+      },
+      "shipping": {
+        "method": "Pakke i postkassen",
+        "carrier": null,
+        "tracking_number": null,
+        "tracking_url": null,
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": null,
+        "estimated_delivery": null,
+        "delivered_date": null
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": "Kunden angret",
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": false,
+      "return_deadline": null,
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-11-09T05:04:00Z"
+        },
+        {
+          "status": "Kansellert",
+          "timestamp": "2026-11-09T13:04:00Z"
+        }
+      ],
+      "customer_notes": null
+    },
+    {
+      "id": 4068,
+      "order_id": 4068,
+      "order_number": "#4068",
+      "status": "Levert",
+      "order_date": "2026-11-07T09:49:00Z",
+      "last_updated": "2026-11-11T23:49:00Z",
+      "customer": {
+        "customer_id": "TEST-78786",
+        "first_name": "Lise",
+        "last_name": "Kunde",
+        "email": "lise.kunde54@example.com",
+        "phone": "+47 400 00 864",
+        "loyalty_member": false,
+        "car": "Demo Kombi 2.0"
+      },
+      "shipping_address": {
+        "name": "Lise Kunde",
+        "street": "Dummygata 93",
+        "postal_code": "2317",
+        "city": "Hamar",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1015",
+          "name": "Sprayforsegling 500 ml",
+          "category": "Beskyttelse",
+          "quantity": 1,
+          "unit_price": 259.0
+        },
+        {
+          "sku": "BP-1023",
+          "name": "Mikrofiberkluter (10-pk)",
+          "category": "Tilbehør",
+          "quantity": 1,
+          "unit_price": 199.0
+        },
+        {
+          "sku": "BP-1011",
+          "name": "Lakkrensleire med glidemiddel",
+          "category": "Rens",
+          "quantity": 1,
+          "unit_price": 299.0
+        },
+        {
+          "sku": "BP-1024",
+          "name": "Spylervæske vinter -25 °C 4 L",
+          "category": "Sesong",
+          "quantity": 1,
+          "unit_price": 119.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 876.0,
+        "discount_code": null,
+        "discount_amount": 0.0,
+        "shipping_cost": 0.0,
+        "vat_rate": 0.25,
+        "vat_included": 175.2,
+        "total": 876.0
+      },
+      "payment": {
+        "method": "Klarna faktura",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Hentested",
+        "carrier": "Posten/Bring",
+        "tracking_number": "9429670689679527",
+        "tracking_url": "https://sporing.bring.no/sporing/9429670689679527",
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": "2026-11-08T15:49:00Z",
+        "estimated_delivery": "2026-11-11",
+        "delivered_date": "2026-11-11T23:49:00Z"
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": true,
+      "return_deadline": "2026-12-11T23:49:00Z",
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-11-07T09:49:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-11-07T09:51:00Z"
+        },
+        {
+          "status": "Sendt",
+          "timestamp": "2026-11-08T15:49:00Z"
+        },
+        {
+          "status": "Under transport",
+          "timestamp": "2026-11-09T05:49:00Z"
+        },
+        {
+          "status": "Levert",
+          "timestamp": "2026-11-11T23:49:00Z"
+        }
+      ],
+      "customer_notes": "Leveres til nabo ved fravær"
+    },
+    {
+      "id": 7635,
+      "order_id": 7635,
+      "order_number": "#7635",
+      "status": "Levert",
+      "order_date": "2026-11-06T01:51:00Z",
+      "last_updated": "2026-11-06T15:51:00Z",
+      "customer": {
+        "customer_id": "TEST-18794",
+        "first_name": "Lise",
+        "last_name": "Nordmann",
+        "email": "lise.nordmann56@example.com",
+        "phone": "+47 400 00 211",
+        "loyalty_member": true,
+        "car": "Testbil Model S"
+      },
+      "shipping_address": {
+        "name": "Lise Nordmann",
+        "street": "Demoveien 17",
+        "postal_code": "7010",
+        "city": "Trondheim",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1003",
+          "name": "Vaskehanske mikrofiber",
+          "category": "Vask",
+          "quantity": 1,
+          "unit_price": 129.0
+        },
+        {
+          "sku": "BP-1019",
+          "name": "Interiørrens 500 ml",
+          "category": "Interiør",
+          "quantity": 1,
+          "unit_price": 179.0
+        },
+        {
+          "sku": "BP-1020",
+          "name": "Skinnrens og -pleie 2-i-1",
+          "category": "Interiør",
+          "quantity": 1,
+          "unit_price": 249.0
+        },
+        {
+          "sku": "BP-1012",
+          "name": "Insektfjerner 500 ml",
+          "category": "Rens",
+          "quantity": 1,
+          "unit_price": 149.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 706.0,
+        "discount_code": null,
+        "discount_amount": 0.0,
+        "shipping_cost": 199.0,
+        "vat_rate": 0.25,
+        "vat_included": 181.0,
+        "total": 905.0
+      },
+      "payment": {
+        "method": "Vipps",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Ekspress",
+        "carrier": "Porterbuddy",
+        "tracking_number": "2547302861450013",
+        "tracking_url": "https://porterbuddy.com/track/2547302861450013",
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": "2026-11-06T07:51:00Z",
+        "estimated_delivery": "2026-11-06",
+        "delivered_date": "2026-11-06T15:51:00Z"
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": true,
+      "return_deadline": "2026-12-06T15:51:00Z",
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-11-06T01:51:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-11-06T01:53:00Z"
+        },
+        {
+          "status": "Sendt",
+          "timestamp": "2026-11-06T07:51:00Z"
+        },
+        {
+          "status": "Under transport",
+          "timestamp": "2026-11-06T21:51:00Z"
+        },
+        {
+          "status": "Levert",
+          "timestamp": "2026-11-06T15:51:00Z"
+        }
+      ],
+      "customer_notes": "Kan leveres på trappa"
+    },
+    {
+      "id": 5712,
+      "order_id": 5712,
+      "order_number": "#5712",
+      "status": "Levert",
+      "order_date": "2026-11-03T05:50:00Z",
+      "last_updated": "2026-11-03T19:50:00Z",
+      "customer": {
+        "customer_id": "TEST-34185",
+        "first_name": "Anne",
+        "last_name": "Nordmann",
+        "email": "anne.nordmann53@example.com",
+        "phone": "+47 400 00 606",
+        "loyalty_member": false,
+        "car": "Fiktiv Sedan"
+      },
+      "shipping_address": {
+        "name": "Anne Nordmann",
+        "street": "Demoveien 74",
+        "postal_code": "0150",
+        "city": "Oslo",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1001",
+          "name": "Bilshampo pH-nøytral 1 L",
+          "category": "Vask",
+          "quantity": 1,
+          "unit_price": 189.0
+        },
+        {
+          "sku": "BP-1017",
+          "name": "Polérpasta medium cut 250 ml",
+          "category": "Polering",
+          "quantity": 1,
+          "unit_price": 289.0
+        },
+        {
+          "sku": "BP-1007",
+          "name": "Felgrens syrefri 750 ml",
+          "category": "Felg og dekk",
+          "quantity": 1,
+          "unit_price": 219.0
+        },
+        {
+          "sku": "BP-1010",
+          "name": "Avfettingsmiddel / tjærefjerner 1 L",
+          "category": "Rens",
+          "quantity": 2,
+          "unit_price": 199.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 1095.0,
+        "discount_code": null,
+        "discount_amount": 0.0,
+        "shipping_cost": 199.0,
+        "vat_rate": 0.25,
+        "vat_included": 258.8,
+        "total": 1294.0
+      },
+      "payment": {
+        "method": "Kort (Visa)",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Ekspress",
+        "carrier": "Porterbuddy",
+        "tracking_number": "7261875449915079",
+        "tracking_url": "https://porterbuddy.com/track/7261875449915079",
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": "2026-11-03T11:50:00Z",
+        "estimated_delivery": "2026-11-03",
+        "delivered_date": "2026-11-03T19:50:00Z"
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": true,
+      "return_deadline": "2026-12-03T19:50:00Z",
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-11-03T05:50:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-11-03T05:52:00Z"
+        },
+        {
+          "status": "Sendt",
+          "timestamp": "2026-11-03T11:50:00Z"
+        },
+        {
+          "status": "Under transport",
+          "timestamp": "2026-11-04T01:50:00Z"
+        },
+        {
+          "status": "Levert",
+          "timestamp": "2026-11-03T19:50:00Z"
+        }
+      ],
+      "customer_notes": null
+    },
+    {
+      "id": 4555,
+      "order_id": 4555,
+      "order_number": "#4555",
+      "status": "Levert",
+      "order_date": "2026-11-01T01:16:00Z",
+      "last_updated": "2026-11-04T15:16:00Z",
+      "customer": {
+        "customer_id": "TEST-50337",
+        "first_name": "Kari",
+        "last_name": "Nordmann",
+        "email": "kari.nordmann22@example.com",
+        "phone": "+47 400 00 908",
+        "loyalty_member": true,
+        "car": "Fiktiv Sedan"
+      },
+      "shipping_address": {
+        "name": "Kari Nordmann",
+        "street": "Fiktivveien 10",
+        "postal_code": "4610",
+        "city": "Kristiansand",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1001",
+          "name": "Bilshampo pH-nøytral 1 L",
+          "category": "Vask",
+          "quantity": 2,
+          "unit_price": 189.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 378.0,
+        "discount_code": "VASK20",
+        "discount_amount": 75.6,
+        "shipping_cost": 49.0,
+        "vat_rate": 0.25,
+        "vat_included": 70.28,
+        "total": 351.4
+      },
+      "payment": {
+        "method": "Klarna delbetaling",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Pakke i postkassen",
+        "carrier": "Posten/Bring",
+        "tracking_number": "8969198303204698",
+        "tracking_url": "https://sporing.bring.no/sporing/8969198303204698",
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": "2026-11-02T07:16:00Z",
+        "estimated_delivery": "2026-11-04",
+        "delivered_date": "2026-11-04T15:16:00Z"
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": true,
+      "return_deadline": "2026-12-04T15:16:00Z",
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-11-01T01:16:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-11-01T01:18:00Z"
+        },
+        {
+          "status": "Sendt",
+          "timestamp": "2026-11-02T07:16:00Z"
+        },
+        {
+          "status": "Under transport",
+          "timestamp": "2026-11-02T21:16:00Z"
+        },
+        {
+          "status": "Levert",
+          "timestamp": "2026-11-04T15:16:00Z"
+        }
+      ],
+      "customer_notes": null
+    },
+    {
+      "id": 8774,
+      "order_id": 8774,
+      "order_number": "#8774",
+      "status": "Levert",
+      "order_date": "2026-10-31T04:37:00Z",
+      "last_updated": "2026-10-31T18:37:00Z",
+      "customer": {
+        "customer_id": "TEST-88062",
+        "first_name": "Ola",
+        "last_name": "Testmann",
+        "email": "ola.testmann32@example.com",
+        "phone": "+47 400 00 924",
+        "loyalty_member": false,
+        "car": null
+      },
+      "shipping_address": {
+        "name": "Ola Testmann",
+        "street": "Testveien 30",
+        "postal_code": "2317",
+        "city": "Hamar",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1011",
+          "name": "Lakkrensleire med glidemiddel",
+          "category": "Rens",
+          "quantity": 1,
+          "unit_price": 299.0
+        },
+        {
+          "sku": "BP-1020",
+          "name": "Skinnrens og -pleie 2-i-1",
+          "category": "Interiør",
+          "quantity": 1,
+          "unit_price": 249.0
+        },
+        {
+          "sku": "BP-1002",
+          "name": "Snøskum / forvask 1 L",
+          "category": "Vask",
+          "quantity": 1,
+          "unit_price": 229.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 777.0,
+        "discount_code": null,
+        "discount_amount": 0.0,
+        "shipping_cost": 199.0,
+        "vat_rate": 0.25,
+        "vat_included": 195.2,
+        "total": 976.0
+      },
+      "payment": {
+        "method": "Vipps",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Ekspress",
+        "carrier": "Porterbuddy",
+        "tracking_number": "7499342097001788",
+        "tracking_url": "https://porterbuddy.com/track/7499342097001788",
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": "2026-10-31T10:37:00Z",
+        "estimated_delivery": "2026-10-31",
+        "delivered_date": "2026-10-31T18:37:00Z"
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": true,
+      "return_deadline": "2026-11-30T18:37:00Z",
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-10-31T04:37:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-10-31T04:39:00Z"
+        },
+        {
+          "status": "Sendt",
+          "timestamp": "2026-10-31T10:37:00Z"
+        },
+        {
+          "status": "Under transport",
+          "timestamp": "2026-11-01T00:37:00Z"
+        },
+        {
+          "status": "Levert",
+          "timestamp": "2026-10-31T18:37:00Z"
+        }
+      ],
+      "customer_notes": "Kan leveres på trappa"
+    },
+    {
+      "id": 2036,
+      "order_id": 2036,
+      "order_number": "#2036",
+      "status": "Levert",
+      "order_date": "2026-10-30T05:34:00Z",
+      "last_updated": "2026-10-30T17:34:00Z",
+      "customer": {
+        "customer_id": "TEST-64584",
+        "first_name": "Eksempel",
+        "last_name": "Testesen",
+        "email": "eksempel.testesen51@example.com",
+        "phone": "+47 400 00 118",
+        "loyalty_member": false,
+        "car": "Demo Kombi 2.0"
+      },
+      "shipping_address": {
+        "name": "Eksempel Testesen",
+        "street": "Dummygata 26",
+        "postal_code": "2317",
+        "city": "Hamar",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1010",
+          "name": "Avfettingsmiddel / tjærefjerner 1 L",
+          "category": "Rens",
+          "quantity": 1,
+          "unit_price": 199.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 199.0,
+        "discount_code": "VASK10",
+        "discount_amount": 19.9,
+        "shipping_cost": 0.0,
+        "vat_rate": 0.25,
+        "vat_included": 35.82,
+        "total": 179.1
+      },
+      "payment": {
+        "method": "Klarna faktura",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Henting i butikk",
+        "carrier": null,
+        "tracking_number": null,
+        "tracking_url": null,
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": "2026-10-30T09:34:00Z",
+        "estimated_delivery": "2026-10-30",
+        "delivered_date": "2026-10-30T17:34:00Z"
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": true,
+      "return_deadline": "2026-11-29T17:34:00Z",
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-10-30T05:34:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-10-30T05:36:00Z"
+        },
+        {
+          "status": "Klar for henting i butikk",
+          "timestamp": "2026-10-30T09:34:00Z"
+        },
+        {
+          "status": "Levert",
+          "timestamp": "2026-10-30T17:34:00Z"
+        }
+      ],
+      "customer_notes": "Gave – ikke legg ved kvittering"
+    },
+    {
+      "id": 1059,
+      "order_id": 1059,
+      "order_number": "#1059",
+      "status": "Retur forespurt",
+      "order_date": "2026-10-30T02:43:00Z",
+      "last_updated": "2026-11-02T16:43:00Z",
+      "customer": {
+        "customer_id": "TEST-61639",
+        "first_name": "Test",
+        "last_name": "Dummysen",
+        "email": "test.dummysen43@example.com",
+        "phone": "+47 400 00 123",
+        "loyalty_member": true,
+        "car": "Testbil Model S"
+      },
+      "shipping_address": {
+        "name": "Test Dummysen",
+        "street": "Testveien 75",
+        "postal_code": "8006",
+        "city": "Bodø",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1008",
+          "name": "Dekkglans 500 ml",
+          "category": "Felg og dekk",
+          "quantity": 1,
+          "unit_price": 169.0
+        },
+        {
+          "sku": "BP-1017",
+          "name": "Polérpasta medium cut 250 ml",
+          "category": "Polering",
+          "quantity": 1,
+          "unit_price": 289.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 458.0,
+        "discount_code": null,
+        "discount_amount": 0.0,
+        "shipping_cost": 129.0,
+        "vat_rate": 0.25,
+        "vat_included": 117.4,
+        "total": 587.0
+      },
+      "payment": {
+        "method": "Klarna delbetaling",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Hjemlevering",
+        "carrier": "Posten/Bring",
+        "tracking_number": "4598474542340252",
+        "tracking_url": "https://sporing.bring.no/sporing/4598474542340252",
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": "2026-10-30T08:43:00Z",
+        "estimated_delivery": "2026-10-31",
+        "delivered_date": "2026-10-31T16:43:00Z"
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": false,
+      "return_deadline": "2026-11-30T16:43:00Z",
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-10-30T02:43:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-10-30T02:45:00Z"
+        },
+        {
+          "status": "Sendt",
+          "timestamp": "2026-10-30T08:43:00Z"
+        },
+        {
+          "status": "Under transport",
+          "timestamp": "2026-10-30T22:43:00Z"
+        },
+        {
+          "status": "Levert",
+          "timestamp": "2026-10-31T16:43:00Z"
+        },
+        {
+          "status": "Retur forespurt",
+          "timestamp": "2026-11-02T16:43:00Z"
+        }
+      ],
+      "customer_notes": "Leveres til nabo ved fravær"
+    },
+    {
+      "id": 6842,
+      "order_id": 6842,
+      "order_number": "#6842",
+      "status": "Levert",
+      "order_date": "2026-10-26T08:53:00Z",
+      "last_updated": "2026-10-30T22:53:00Z",
+      "customer": {
+        "customer_id": "TEST-26981",
+        "first_name": "Demo",
+        "last_name": "Testesen",
+        "email": "demo.testesen93@example.com",
+        "phone": "+47 400 00 939",
+        "loyalty_member": false,
+        "car": "Demo Kombi 2.0"
+      },
+      "shipping_address": {
+        "name": "Demo Testesen",
+        "street": "Prøvegata 20",
+        "postal_code": "9008",
+        "city": "Tromsø",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1004",
+          "name": "Vaskebøtte 20 L med grit guard",
+          "category": "Vask",
+          "quantity": 1,
+          "unit_price": 349.0
+        },
+        {
+          "sku": "BP-1003",
+          "name": "Vaskehanske mikrofiber",
+          "category": "Vask",
+          "quantity": 1,
+          "unit_price": 129.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 478.0,
+        "discount_code": null,
+        "discount_amount": 0.0,
+        "shipping_cost": 59.0,
+        "vat_rate": 0.25,
+        "vat_included": 107.4,
+        "total": 537.0
+      },
+      "payment": {
+        "method": "Klarna delbetaling",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Hentested",
+        "carrier": "Posten/Bring",
+        "tracking_number": "7807429836436625",
+        "tracking_url": "https://sporing.bring.no/sporing/7807429836436625",
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": "2026-10-27T14:53:00Z",
+        "estimated_delivery": "2026-10-30",
+        "delivered_date": "2026-10-30T22:53:00Z"
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": true,
+      "return_deadline": "2026-11-29T22:53:00Z",
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-10-26T08:53:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-10-26T08:55:00Z"
+        },
+        {
+          "status": "Sendt",
+          "timestamp": "2026-10-27T14:53:00Z"
+        },
+        {
+          "status": "Under transport",
+          "timestamp": "2026-10-28T04:53:00Z"
+        },
+        {
+          "status": "Levert",
+          "timestamp": "2026-10-30T22:53:00Z"
+        }
+      ],
+      "customer_notes": "Ring før levering"
+    },
+    {
+      "id": 6220,
+      "order_id": 6220,
+      "order_number": "#6220",
+      "status": "Levert",
+      "order_date": "2026-10-22T06:32:00Z",
+      "last_updated": "2026-10-22T18:32:00Z",
+      "customer": {
+        "customer_id": "TEST-84289",
+        "first_name": "Per",
+        "last_name": "Nordmann",
+        "email": "per.nordmann59@example.com",
+        "phone": "+47 400 00 254",
+        "loyalty_member": false,
+        "car": "Demo Kombi 2.0"
+      },
+      "shipping_address": {
+        "name": "Per Nordmann",
+        "street": "Fiktivveien 4",
+        "postal_code": "2317",
+        "city": "Hamar",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1004",
+          "name": "Vaskebøtte 20 L med grit guard",
+          "category": "Vask",
+          "quantity": 1,
+          "unit_price": 349.0
+        },
+        {
+          "sku": "BP-1011",
+          "name": "Lakkrensleire med glidemiddel",
+          "category": "Rens",
+          "quantity": 1,
+          "unit_price": 299.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 648.0,
+        "discount_code": null,
+        "discount_amount": 0.0,
+        "shipping_cost": 0.0,
+        "vat_rate": 0.25,
+        "vat_included": 129.6,
+        "total": 648.0
+      },
+      "payment": {
+        "method": "Vipps",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Henting i butikk",
+        "carrier": null,
+        "tracking_number": null,
+        "tracking_url": null,
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": "2026-10-22T10:32:00Z",
+        "estimated_delivery": "2026-10-22",
+        "delivered_date": "2026-10-22T18:32:00Z"
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": true,
+      "return_deadline": "2026-11-21T18:32:00Z",
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-10-22T06:32:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-10-22T06:34:00Z"
+        },
+        {
+          "status": "Klar for henting i butikk",
+          "timestamp": "2026-10-22T10:32:00Z"
+        },
+        {
+          "status": "Levert",
+          "timestamp": "2026-10-22T18:32:00Z"
+        }
+      ],
+      "customer_notes": "Leveres til nabo ved fravær"
+    },
+    {
+      "id": 2182,
+      "order_id": 2182,
+      "order_number": "#2182",
+      "status": "Levert",
+      "order_date": "2026-10-21T01:06:00Z",
+      "last_updated": "2026-10-21T15:06:00Z",
+      "customer": {
+        "customer_id": "TEST-45083",
+        "first_name": "Test",
+        "last_name": "Testesen",
+        "email": "test.testesen27@example.com",
+        "phone": "+47 400 00 481",
+        "loyalty_member": true,
+        "car": "Demo Kombi 2.0"
+      },
+      "shipping_address": {
+        "name": "Test Testesen",
+        "street": "Eksempelgata 57",
+        "postal_code": "5003",
+        "city": "Bergen",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1025",
+          "name": "Isskrape med snøbørste",
+          "category": "Sesong",
+          "quantity": 1,
+          "unit_price": 159.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 159.0,
+        "discount_code": null,
+        "discount_amount": 0.0,
+        "shipping_cost": 199.0,
+        "vat_rate": 0.25,
+        "vat_included": 71.6,
+        "total": 358.0
+      },
+      "payment": {
+        "method": "Kort (Visa)",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Ekspress",
+        "carrier": "Porterbuddy",
+        "tracking_number": "6106038710111818",
+        "tracking_url": "https://porterbuddy.com/track/6106038710111818",
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": "2026-10-21T07:06:00Z",
+        "estimated_delivery": "2026-10-21",
+        "delivered_date": "2026-10-21T15:06:00Z"
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": false,
+      "return_deadline": "2026-11-20T15:06:00Z",
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-10-21T01:06:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-10-21T01:08:00Z"
+        },
+        {
+          "status": "Sendt",
+          "timestamp": "2026-10-21T07:06:00Z"
+        },
+        {
+          "status": "Under transport",
+          "timestamp": "2026-10-21T21:06:00Z"
+        },
+        {
+          "status": "Levert",
+          "timestamp": "2026-10-21T15:06:00Z"
+        }
+      ],
+      "customer_notes": null
+    },
+    {
+      "id": 9492,
+      "order_id": 9492,
+      "order_number": "#9492",
+      "status": "Levert",
+      "order_date": "2026-10-19T08:32:00Z",
+      "last_updated": "2026-10-23T22:32:00Z",
+      "customer": {
+        "customer_id": "TEST-44025",
+        "first_name": "Ole",
+        "last_name": "Kunde",
+        "email": "ole.kunde14@example.com",
+        "phone": "+47 400 00 672",
+        "loyalty_member": false,
+        "car": "Testbil Model S"
+      },
+      "shipping_address": {
+        "name": "Ole Kunde",
+        "street": "Prøvegata 18",
+        "postal_code": "8006",
+        "city": "Bodø",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1020",
+          "name": "Skinnrens og -pleie 2-i-1",
+          "category": "Interiør",
+          "quantity": 1,
+          "unit_price": 249.0
+        },
+        {
+          "sku": "BP-1017",
+          "name": "Polérpasta medium cut 250 ml",
+          "category": "Polering",
+          "quantity": 2,
+          "unit_price": 289.0
+        },
+        {
+          "sku": "BP-1007",
+          "name": "Felgrens syrefri 750 ml",
+          "category": "Felg og dekk",
+          "quantity": 2,
+          "unit_price": 219.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 1265.0,
+        "discount_code": "VASK15",
+        "discount_amount": 189.75,
+        "shipping_cost": 0.0,
+        "vat_rate": 0.25,
+        "vat_included": 215.05,
+        "total": 1075.25
+      },
+      "payment": {
+        "method": "Klarna faktura",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Hentested",
+        "carrier": "Posten/Bring",
+        "tracking_number": "5712655868653947",
+        "tracking_url": "https://sporing.bring.no/sporing/5712655868653947",
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": "2026-10-20T14:32:00Z",
+        "estimated_delivery": "2026-10-23",
+        "delivered_date": "2026-10-23T22:32:00Z"
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": true,
+      "return_deadline": "2026-11-22T22:32:00Z",
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-10-19T08:32:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-10-19T08:34:00Z"
+        },
+        {
+          "status": "Sendt",
+          "timestamp": "2026-10-20T14:32:00Z"
+        },
+        {
+          "status": "Under transport",
+          "timestamp": "2026-10-21T04:32:00Z"
+        },
+        {
+          "status": "Levert",
+          "timestamp": "2026-10-23T22:32:00Z"
+        }
+      ],
+      "customer_notes": null
+    },
+    {
+      "id": 2271,
+      "order_id": 2271,
+      "order_number": "#2271",
+      "status": "Levert",
+      "order_date": "2026-10-16T22:16:00Z",
+      "last_updated": "2026-10-18T12:16:00Z",
+      "customer": {
+        "customer_id": "TEST-70515",
+        "first_name": "Ole",
+        "last_name": "Dummysen",
+        "email": "ole.dummysen44@example.com",
+        "phone": "+47 400 00 463",
+        "loyalty_member": true,
+        "car": null
+      },
+      "shipping_address": {
+        "name": "Ole Dummysen",
+        "street": "Prøvegata 8",
+        "postal_code": "2000",
+        "city": "Lillestrøm",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1021",
+          "name": "Glassrens stripefri 500 ml",
+          "category": "Interiør",
+          "quantity": 2,
+          "unit_price": 129.0
+        },
+        {
+          "sku": "BP-1019",
+          "name": "Interiørrens 500 ml",
+          "category": "Interiør",
+          "quantity": 1,
+          "unit_price": 179.0
+        },
+        {
+          "sku": "BP-1022",
+          "name": "Luktfjerner nøytral 250 ml",
+          "category": "Interiør",
+          "quantity": 2,
+          "unit_price": 149.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 735.0,
+        "discount_code": "VASK20",
+        "discount_amount": 147.0,
+        "shipping_cost": 129.0,
+        "vat_rate": 0.25,
+        "vat_included": 143.4,
+        "total": 717.0
+      },
+      "payment": {
+        "method": "Kort (Visa)",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Hjemlevering",
+        "carrier": "PostNord",
+        "tracking_number": "9472609067282183",
+        "tracking_url": "https://www.postnord.no/sporing?id=9472609067282183",
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": "2026-10-17T04:16:00Z",
+        "estimated_delivery": "2026-10-18",
+        "delivered_date": "2026-10-18T12:16:00Z"
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": false,
+      "return_deadline": "2026-11-17T12:16:00Z",
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-10-16T22:16:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-10-16T22:18:00Z"
+        },
+        {
+          "status": "Sendt",
+          "timestamp": "2026-10-17T04:16:00Z"
+        },
+        {
+          "status": "Under transport",
+          "timestamp": "2026-10-17T18:16:00Z"
+        },
+        {
+          "status": "Levert",
+          "timestamp": "2026-10-18T12:16:00Z"
+        }
+      ],
+      "customer_notes": "Leveres til nabo ved fravær"
+    },
+    {
+      "id": 5132,
+      "order_id": 5132,
+      "order_number": "#5132",
+      "status": "Levert",
+      "order_date": "2026-10-15T09:48:00Z",
+      "last_updated": "2026-10-15T23:48:00Z",
+      "customer": {
+        "customer_id": "TEST-44647",
+        "first_name": "Per",
+        "last_name": "Dummysen",
+        "email": "per.dummysen79@example.com",
+        "phone": "+47 400 00 217",
+        "loyalty_member": false,
+        "car": null
+      },
+      "shipping_address": {
+        "name": "Per Dummysen",
+        "street": "Dummygata 47",
+        "postal_code": "4610",
+        "city": "Kristiansand",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1013",
+          "name": "Hardvoks carnauba 200 g",
+          "category": "Beskyttelse",
+          "quantity": 1,
+          "unit_price": 399.0
+        },
+        {
+          "sku": "BP-1006",
+          "name": "Tørkehåndkle XL 90x60 cm",
+          "category": "Tørk",
+          "quantity": 1,
+          "unit_price": 279.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 678.0,
+        "discount_code": "VASK10",
+        "discount_amount": 67.8,
+        "shipping_cost": 199.0,
+        "vat_rate": 0.25,
+        "vat_included": 161.84,
+        "total": 809.2
+      },
+      "payment": {
+        "method": "Klarna faktura",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Ekspress",
+        "carrier": "Porterbuddy",
+        "tracking_number": "8134817576725929",
+        "tracking_url": "https://porterbuddy.com/track/8134817576725929",
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": "2026-10-15T15:48:00Z",
+        "estimated_delivery": "2026-10-15",
+        "delivered_date": "2026-10-15T23:48:00Z"
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": false,
+      "return_deadline": "2026-11-14T23:48:00Z",
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-10-15T09:48:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-10-15T09:50:00Z"
+        },
+        {
+          "status": "Sendt",
+          "timestamp": "2026-10-15T15:48:00Z"
+        },
+        {
+          "status": "Under transport",
+          "timestamp": "2026-10-16T05:48:00Z"
+        },
+        {
+          "status": "Levert",
+          "timestamp": "2026-10-15T23:48:00Z"
+        }
+      ],
+      "customer_notes": "Ring før levering"
+    },
+    {
+      "id": 3147,
+      "order_id": 3147,
+      "order_number": "#3147",
+      "status": "Levert",
+      "order_date": "2026-10-15T07:22:00Z",
+      "last_updated": "2026-10-15T19:22:00Z",
+      "customer": {
+        "customer_id": "TEST-28554",
+        "first_name": "Ola",
+        "last_name": "Dummysen",
+        "email": "ola.dummysen59@example.com",
+        "phone": "+47 400 00 584",
+        "loyalty_member": false,
+        "car": null
+      },
+      "shipping_address": {
+        "name": "Ola Dummysen",
+        "street": "Fiktivveien 8",
+        "postal_code": "2317",
+        "city": "Hamar",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1025",
+          "name": "Isskrape med snøbørste",
+          "category": "Sesong",
+          "quantity": 1,
+          "unit_price": 159.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 159.0,
+        "discount_code": null,
+        "discount_amount": 0.0,
+        "shipping_cost": 0.0,
+        "vat_rate": 0.25,
+        "vat_included": 31.8,
+        "total": 159.0
+      },
+      "payment": {
+        "method": "Kort (Mastercard)",
+        "status": "Betalt"
+      },
+      "shipping": {
+        "method": "Henting i butikk",
+        "carrier": null,
+        "tracking_number": null,
+        "tracking_url": null,
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": "2026-10-15T11:22:00Z",
+        "estimated_delivery": "2026-10-15",
+        "delivered_date": "2026-10-15T19:22:00Z"
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": false,
+      "return_deadline": "2026-11-14T19:22:00Z",
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-10-15T07:22:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-10-15T07:24:00Z"
+        },
+        {
+          "status": "Klar for henting i butikk",
+          "timestamp": "2026-10-15T11:22:00Z"
+        },
+        {
+          "status": "Levert",
+          "timestamp": "2026-10-15T19:22:00Z"
+        }
+      ],
+      "customer_notes": "Gave – ikke legg ved kvittering"
+    },
+    {
+      "id": 5748,
+      "order_id": 5748,
+      "order_number": "#5748",
+      "status": "Returnert",
+      "order_date": "2026-10-12T07:45:00Z",
+      "last_updated": "2026-10-27T21:45:00Z",
+      "customer": {
+        "customer_id": "TEST-82633",
+        "first_name": "Test",
+        "last_name": "Dummysen",
+        "email": "test.dummysen9@example.com",
+        "phone": "+47 400 00 662",
+        "loyalty_member": true,
+        "car": null
+      },
+      "shipping_address": {
+        "name": "Test Dummysen",
+        "street": "Testveien 94",
+        "postal_code": "3015",
+        "city": "Drammen",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1014",
+          "name": "Keramisk coating-sett 30 ml",
+          "category": "Beskyttelse",
+          "quantity": 1,
+          "unit_price": 1290.0
+        },
+        {
+          "sku": "BP-1017",
+          "name": "Polérpasta medium cut 250 ml",
+          "category": "Polering",
+          "quantity": 1,
+          "unit_price": 289.0
+        },
+        {
+          "sku": "BP-1011",
+          "name": "Lakkrensleire med glidemiddel",
+          "category": "Rens",
+          "quantity": 2,
+          "unit_price": 299.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 2177.0,
+        "discount_code": null,
+        "discount_amount": 0.0,
+        "shipping_cost": 199.0,
+        "vat_rate": 0.25,
+        "vat_included": 475.2,
+        "total": 2376.0
+      },
+      "payment": {
+        "method": "Klarna faktura",
+        "status": "Refundert"
+      },
+      "shipping": {
+        "method": "Ekspress",
+        "carrier": "Porterbuddy",
+        "tracking_number": "7860384814023255",
+        "tracking_url": "https://porterbuddy.com/track/7860384814023255",
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": "2026-10-12T13:45:00Z",
+        "estimated_delivery": "2026-10-12",
+        "delivered_date": "2026-10-12T21:45:00Z"
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": false,
+      "return_deadline": "2026-11-11T21:45:00Z",
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-10-12T07:45:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-10-12T07:47:00Z"
+        },
+        {
+          "status": "Sendt",
+          "timestamp": "2026-10-12T13:45:00Z"
+        },
+        {
+          "status": "Under transport",
+          "timestamp": "2026-10-13T03:45:00Z"
+        },
+        {
+          "status": "Levert",
+          "timestamp": "2026-10-12T21:45:00Z"
+        },
+        {
+          "status": "Retur forespurt",
+          "timestamp": "2026-10-20T21:45:00Z"
+        },
+        {
+          "status": "Retur mottatt",
+          "timestamp": "2026-10-25T21:45:00Z"
+        },
+        {
+          "status": "Refundert",
+          "timestamp": "2026-10-27T21:45:00Z"
+        }
+      ],
+      "customer_notes": "Kan leveres på trappa"
+    },
+    {
+      "id": 2486,
+      "order_id": 2486,
+      "order_number": "#2486",
+      "status": "Returnert",
+      "order_date": "2026-10-09T01:47:00Z",
+      "last_updated": "2026-10-25T15:47:00Z",
+      "customer": {
+        "customer_id": "TEST-22137",
+        "first_name": "Per",
+        "last_name": "Dummysen",
+        "email": "per.dummysen72@example.com",
+        "phone": "+47 400 00 377",
+        "loyalty_member": false,
+        "car": "Eksempel SUV EV"
+      },
+      "shipping_address": {
+        "name": "Per Dummysen",
+        "street": "Prøvegata 83",
+        "postal_code": "5003",
+        "city": "Bergen",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1009",
+          "name": "Felgbørste-sett (3 stk)",
+          "category": "Felg og dekk",
+          "quantity": 2,
+          "unit_price": 249.0
+        },
+        {
+          "sku": "BP-1011",
+          "name": "Lakkrensleire med glidemiddel",
+          "category": "Rens",
+          "quantity": 1,
+          "unit_price": 299.0
+        },
+        {
+          "sku": "BP-1025",
+          "name": "Isskrape med snøbørste",
+          "category": "Sesong",
+          "quantity": 1,
+          "unit_price": 159.0
+        },
+        {
+          "sku": "BP-1002",
+          "name": "Snøskum / forvask 1 L",
+          "category": "Vask",
+          "quantity": 1,
+          "unit_price": 229.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 1185.0,
+        "discount_code": "VASK20",
+        "discount_amount": 237.0,
+        "shipping_cost": 129.0,
+        "vat_rate": 0.25,
+        "vat_included": 215.4,
+        "total": 1077.0
+      },
+      "payment": {
+        "method": "Klarna faktura",
+        "status": "Refundert"
+      },
+      "shipping": {
+        "method": "Hjemlevering",
+        "carrier": "Helthjem",
+        "tracking_number": "6671175874893259",
+        "tracking_url": "https://helthjem.no/sporing/6671175874893259",
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": "2026-10-09T07:47:00Z",
+        "estimated_delivery": "2026-10-10",
+        "delivered_date": "2026-10-10T15:47:00Z"
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": false,
+      "return_deadline": "2026-11-09T15:47:00Z",
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-10-09T01:47:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-10-09T01:49:00Z"
+        },
+        {
+          "status": "Sendt",
+          "timestamp": "2026-10-09T07:47:00Z"
+        },
+        {
+          "status": "Under transport",
+          "timestamp": "2026-10-09T21:47:00Z"
+        },
+        {
+          "status": "Levert",
+          "timestamp": "2026-10-10T15:47:00Z"
+        },
+        {
+          "status": "Retur forespurt",
+          "timestamp": "2026-10-15T15:47:00Z"
+        },
+        {
+          "status": "Retur mottatt",
+          "timestamp": "2026-10-23T15:47:00Z"
+        },
+        {
+          "status": "Refundert",
+          "timestamp": "2026-10-25T15:47:00Z"
+        }
+      ],
+      "customer_notes": "Kan leveres på trappa"
+    },
+    {
+      "id": 9652,
+      "order_id": 9652,
+      "order_number": "#9652",
+      "status": "Returnert",
+      "order_date": "2026-10-07T06:08:00Z",
+      "last_updated": "2026-10-22T18:08:00Z",
+      "customer": {
+        "customer_id": "TEST-71897",
+        "first_name": "Test",
+        "last_name": "Testesen",
+        "email": "test.testesen90@example.com",
+        "phone": "+47 400 00 365",
+        "loyalty_member": true,
+        "car": "Fiktiv Sedan"
+      },
+      "shipping_address": {
+        "name": "Test Testesen",
+        "street": "Demoveien 58",
+        "postal_code": "4610",
+        "city": "Kristiansand",
+        "country": "NO"
+      },
+      "items": [
+        {
+          "sku": "BP-1024",
+          "name": "Spylervæske vinter -25 °C 4 L",
+          "category": "Sesong",
+          "quantity": 2,
+          "unit_price": 119.0
+        },
+        {
+          "sku": "BP-1026",
+          "name": "Gavekort bilvask Premium",
+          "category": "Gavekort",
+          "quantity": 1,
+          "unit_price": 599.0
+        },
+        {
+          "sku": "BP-1008",
+          "name": "Dekkglans 500 ml",
+          "category": "Felg og dekk",
+          "quantity": 1,
+          "unit_price": 169.0
+        },
+        {
+          "sku": "BP-1007",
+          "name": "Felgrens syrefri 750 ml",
+          "category": "Felg og dekk",
+          "quantity": 1,
+          "unit_price": 219.0
+        }
+      ],
+      "pricing": {
+        "currency": "NOK",
+        "subtotal": 1225.0,
+        "discount_code": null,
+        "discount_amount": 0.0,
+        "shipping_cost": 0.0,
+        "vat_rate": 0.25,
+        "vat_included": 245.0,
+        "total": 1225.0
+      },
+      "payment": {
+        "method": "Kort (Mastercard)",
+        "status": "Refundert"
+      },
+      "shipping": {
+        "method": "Henting i butikk",
+        "carrier": null,
+        "tracking_number": null,
+        "tracking_url": null,
+        "pickup_point": null,
+        "pickup_deadline": null,
+        "shipped_date": "2026-10-07T10:08:00Z",
+        "estimated_delivery": "2026-10-07",
+        "delivered_date": "2026-10-07T18:08:00Z"
+      },
+      "on_hold_reason": null,
+      "cancellation_reason": null,
+      "can_cancel": false,
+      "can_change_address": false,
+      "return_eligible": false,
+      "return_deadline": "2026-11-06T18:08:00Z",
+      "status_history": [
+        {
+          "status": "Bestilling mottatt",
+          "timestamp": "2026-10-07T06:08:00Z"
+        },
+        {
+          "status": "Betaling bekreftet",
+          "timestamp": "2026-10-07T06:10:00Z"
+        },
+        {
+          "status": "Klar for henting i butikk",
+          "timestamp": "2026-10-07T10:08:00Z"
+        },
+        {
+          "status": "Levert",
+          "timestamp": "2026-10-07T18:08:00Z"
+        },
+        {
+          "status": "Retur forespurt",
+          "timestamp": "2026-10-13T18:08:00Z"
+        },
+        {
+          "status": "Retur mottatt",
+          "timestamp": "2026-10-20T18:08:00Z"
+        },
+        {
+          "status": "Refundert",
+          "timestamp": "2026-10-22T18:08:00Z"
+        }
+      ],
+      "customer_notes": null
+    }
+  ]
+}
